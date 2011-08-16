@@ -139,8 +139,13 @@ td.sidebar {
   margin-bottom: -15px;
 }
 
-div.field, div.actions {
+div.field, div.file_field, div.actions {
   margin-bottom: 10px;
+}
+
+div.file_field {
+  font-size: 150%;
+  font-weight: bold;
 }
 
 .field_with_errors {

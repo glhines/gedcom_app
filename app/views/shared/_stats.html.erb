@@ -17,5 +17,29 @@
         </a>
       </td>
     </tr>
+    <tr>
+      <td>
+        <strong>GEDCOM file:</strong>
+          <span id="gedcom_file_name" class="stat">
+            <%= @user.gedcom_file_name %>
+          </span>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>GEDCOM size:</strong>
+          <span id="gedcom_file_size" class="stat">
+            <%= @user.gedcom_file_size %>
+          </span>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>GEDCOM uploaded:</strong>
+          <span id="gedcom_updated_at" class="stat">
+            <%= @user.gedcom_updated_at %>
+          </span>
+      </td>
+    </tr>
   </table>
 </div>

@@ -86,6 +86,13 @@ describe UsersController do
       response.should have_selector("h1>img", :class => "gravatar")
     end
 
+    it "should have a GEDCOM section" do
+      get :show, :id => @user
+      response.should have_selector("td", :content => "GEDCOM file:")
+      response.should have_selector("td", :content => "GEDCOM size:")
+      response.should have_selector("td", :content => "GEDCOM uploaded:")
+    end
+
     it "should show the user's microposts" do
       mp1 = Factory(:micropost, :user => @user, :content => "Foo bar")
       mp2 = Factory(:micropost, :user => @user, :content => "Baz quux")
@@ -204,11 +211,9 @@ describe UsersController do
       response.should have_selector("title", :content => "Edit user")
     end
 
-    it "should have a link to change the Gravatar" do
+    it "should have a field to change the GEDCOM file" do
       get :edit, :id => @user
-      gravatar_url = "http://gravatar.com/emails"
-      response.should have_selector("a", :href => gravatar_url,
-                                         :content => "change")
+      response.should have_selector("div", :class => "file_field")
     end
   end
 

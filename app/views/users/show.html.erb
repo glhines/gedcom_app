@@ -18,9 +18,6 @@
       <strong>URL</strong>  <%= link_to user_path(@user), @user %>
       <strong>Microposts</strong> <%= @user.microposts.count %>
       <%= render 'shared/stats' %>
-      <span class="content">
-        GEDCOM: <%= @user.gedcom_file_name %>      
-      </span>
     </td>
   </tr>
 </table>

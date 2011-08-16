@@ -67,6 +67,6 @@ module GedcomsHelper
   
 end
 
-parser = GedcomsHelper::GedcomFile.new( *ARGV )
-parser.parse_gedcom
-parser.report_birthplaces
+#parser = GedcomsHelper::GedcomFile.new( *ARGV )
+#parser.parse_gedcom
+#parser.report_birthplaces

@@ -1,5 +1,6 @@
 require 'rubygems'
 require 'spork'
+require 'paperclip/matchers'
 
 Spork.prefork do
   # Loading more in this block will cause your tests to run faster. However,
@@ -29,6 +30,8 @@ Spork.prefork do
     # examples within a transaction, comment the following line or assign false
     # instead of true.
     config.use_transactional_fixtures = true
+
+    config.include Paperclip::Shoulda::Matchers
   end
 
 end
@@ -96,6 +99,8 @@ RSpec.configure do |config|
   # examples within a transaction, remove the following line or assign false
   # instead of true.
   config.use_transactional_fixtures = true
+
+  config.include Paperclip::Shoulda::Matchers
 
   def test_sign_in(user)
     controller.sign_in(user)

@@ -1,7 +1,30 @@
 <h1>Help</h1>
 <p>
-  Get help on Ruby on Rails Tutorial at the
-  <a href="http://railstutorial.org/help">Rails Tutorial help page</a>.
-  To get help on this sample app, see the
-  <a href="http://railstutorial.org/book">Rails Tutorial book</a>.
+<%= app_name %> helps you answer important questions about your
+ancestry.
+It is named for my Uncle Lloyd, who gave me the straight information on our
+family, despite the cautions of his wife, Aunt Ruth (who furnished a lot of
+good information herself).
+</p>
+<p>
+I'm assuming you use genealogy software of some kind to manage your research
+and that the software allows you to export a set of ancestors (or descendants)
+to a GEDCOM file.
+GEDCOM is a standard file format supported by most genealogy software -- read
+up on it in your software's documentation if you have never exported a GEDCOM
+file before.
+</p>
+<p>Follow these steps to use <%= app_name %>:
+  <ol>
+    <li>Sign up for a free user account.</li>
+    <li>Use your genealogy program to choose the people you want to analyze
+    and export them in a GEDCOM file.</li>
+    <li>Upload the GEDCOM file to your 
+    <%= if signed_in? then 
+          link_to "Settings page", edit_user_path(current_user)
+        else 
+          "Settings page" 
+        end %>.
+    </li>
+  </ol>
 </p>
