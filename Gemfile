@@ -7,14 +7,14 @@ gem 'rails', '3.1.0.rc5'
 
 gem 'gravatar_image_tag', '1.0.0.pre2'
 gem 'will_paginate', '3.0.pre4'
-gem 'sqlite3', '1.3.3'
 gem "paperclip", "~> 2.3"
 
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
   gem 'sass-rails', "~> 3.1.0.rc"
-  gem 'coffee-rails', "~> 3.1.0.rc"
+  #gem 'coffee-rails', "~> 3.1.0.rc"
+  gem 'coffee-script'
   gem 'uglifier'
 end
 
@@ -30,12 +30,14 @@ gem 'jquery-rails'
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
 group :development do
+  gem 'sqlite3', '1.3.3'
   gem 'rspec-rails', '2.6.1'
   gem 'annotate', '2.4.0'
   gem 'faker', '0.3.1'
 end
 
 group :test do
+  gem 'sqlite3', '1.3.3'
   gem 'rspec-rails', '2.6.1'
   gem 'webrat', '0.7.1'
   gem 'factory_girl_rails', '1.0'
@@ -49,3 +51,9 @@ group :test do
   gem 'autotest-growl', '0.2.9'
   gem 'spork', '0.9.0.rc9'
 end
+
+group :production do
+  # heroku cedar stack uses PostgreSQL database
+  gem 'pg'
+end
+
