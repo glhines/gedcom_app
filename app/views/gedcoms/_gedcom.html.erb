@@ -1,0 +1,19 @@
+<tr>
+  <td class="gedcom_content">
+    <span>
+      <table class="gedcom_preview">
+        <% GedcomsHelper::GedcomFile.new(@gedcom.gedcom.path).head(10).each do |s| %>
+          <% begin %>
+            <tr><td><%= s %></td></tr>
+          <% rescue %>
+            <% error_msg = "Format Error - Are you sure this is a GEDCOM?" %>
+            <% flash.now[:error] = error_msg %>
+          <% end %>
+        <% end %>
+      </table>
+    </span>
+    <span class="timestamp">
+      Uploaded <%= time_ago_in_words(@gedcom.gedcom_updated_at) %> ago.
+    </span>
+  </td>
+</tr>

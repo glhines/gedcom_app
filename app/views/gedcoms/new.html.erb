@@ -1,2 +1,8 @@
-<h1>Gedcoms#new</h1>
-<p>Find me in app/views/gedcoms/new.html.erb</p>
+<h1>Upload GEDCOM File</h1>
+
+<%= form_for(@gedcom) do |f| %>
+  <%= render 'fields', :f => f %>
+  <div class="actions">
+    <%= f.submit "Upload" %>
+  </div>
+<% end %>

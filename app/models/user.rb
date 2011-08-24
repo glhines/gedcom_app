@@ -2,25 +2,21 @@
 #
 # Table name: users
 #
-#  id                  :integer         not null, primary key
-#  name                :string(255)
-#  email               :string(255)
-#  created_at          :datetime
-#  updated_at          :datetime
-#  encrypted_password  :string(255)
-#  salt                :string(255)
-#  admin               :boolean         default(FALSE)
-#  gedcom_file_name    :string(255)
-#  gedcom_content_type :string(255)
-#  gedcom_file_size    :integer
-#  gedcom_updated_at   :datetime
+#  id                 :integer         not null, primary key
+#  name               :string(255)
+#  email              :string(255)
+#  created_at         :datetime
+#  updated_at         :datetime
+#  encrypted_password :string(255)
+#  salt               :string(255)
+#  admin              :boolean         default(FALSE)
 #
 
 class User < ActiveRecord::Base
   attr_accessor :password
-  attr_accessible :name, :email, :password, :password_confirmation, 
-    :gedcom
+  attr_accessible :name, :email, :password, :password_confirmation 
 
+  has_one  :gedcom, :dependent => :destroy
   has_many :microposts, :dependent => :destroy
   has_many :relationships, :foreign_key => "follower_id",
                            :dependent => :destroy
@@ -29,9 +25,6 @@ class User < ActiveRecord::Base
                                    :class_name => "Relationship",
                                    :dependent => :destroy
   has_many :followers, :through => :reverse_relationships, :source => :follower
-
-  has_attached_file :gedcom, :styles => {:text => { :quality => :better } }, 
-                             :processors => [:gedcom_parser]
   
   email_regex = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
 
@@ -83,8 +76,6 @@ class User < ActiveRecord::Base
     Micropost.from_users_followed_by(self)
   end
 
-  before_post_process :cancel_post_processing
-  
   private
 
     def encrypt_password
@@ -104,9 +95,4 @@ class User < ActiveRecord::Base
       Digest::SHA2.hexdigest(string)
     end
 
-    def cancel_post_processing
-      # Returning 'false' will cancel Paperclip post-processing
-      false
-    end
-  
 end

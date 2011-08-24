@@ -9,6 +9,8 @@
           </span>
         </a>
       </td>
+    </tr>
+    <tr>
       <td>
         <a href="<%= followers_user_path(@user) %>">
           <span id="followers" class="stat">
@@ -17,11 +19,20 @@
         </a>
       </td>
     </tr>
+    <% if @gedcom.nil? %>
+      <% if current_user?(@user) %>
+      <tr>
+        <td>
+          <%= link_to "Click here to upload GEDCOM!", new_gedcom_path %>
+        </td>
+      </tr>
+      <% end %>
+    <% else %>
     <tr>
       <td>
         <strong>GEDCOM file:</strong>
           <span id="gedcom_file_name" class="stat">
-            <%= @user.gedcom_file_name %>
+            <%= @gedcom.gedcom_file_name %>
           </span>
       </td>
     </tr>
@@ -29,7 +40,7 @@
       <td>
         <strong>GEDCOM size:</strong>
           <span id="gedcom_file_size" class="stat">
-            <%= @user.gedcom_file_size %>
+            <%= @gedcom.gedcom_file_size %>
           </span>
       </td>
     </tr>
@@ -37,9 +48,10 @@
       <td>
         <strong>GEDCOM uploaded:</strong>
           <span id="gedcom_updated_at" class="stat">
-            <%= @user.gedcom_updated_at %>
+            <%= @gedcom.gedcom_updated_at %>
           </span>
       </td>
     </tr>
+  <% end %>
   </table>
 </div>

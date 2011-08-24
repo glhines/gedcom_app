@@ -251,3 +251,24 @@ form.new_micropost textarea {
   height: 4em;
   margin-bottom: 0;
 }
+
+/* Override some of the table formatting for GEDCOM displays */
+
+table.gedcom_preview tbody tr:nth-child(even) td, 
+table.gedcom_preview tbody tr.even td {
+  background: transparent;
+}
+
+table.gedcom_preview tr {
+  border: 0px;
+  vertical-align: top;
+  padding: 0px;
+}
+
+table.gedcom_preview tr td {
+  border: 0px;
+  vertical-align: top;
+  padding: 0px;
+}
+
+

@@ -1,0 +1,22 @@
+<table class="profile" summary="Profile information">
+  <tr>
+    <td class="main">
+      <h1>
+        <%= @gedcom.gedcom_file_name %>
+      </h1>
+        <table summary="GEDCOM content">
+          <%= render 'gedcom' %>
+        </table>
+    </td>
+  </tr>
+  <tr>
+  <% if current_user?(@gedcom.user) %>
+    <td>
+      <%= link_to "Delete GEDCOM", gedcom_path(@gedcom),
+                            :method => "delete",
+                            :confirm => "You sure?",
+                            :title => "Delete #{@gedcom.gedcom_file_name}" %>
+    </td>
+  <% end %>
+  </tr>
+</table>

@@ -4,9 +4,15 @@ module GedcomsHelper
 
     def initialize path
       raise ArgumentError unless File.exists?( path )
-      @log = File.open( path )
+      @ged = File.open( path )
       @token = ''
       @birthplaces = { }
+    end
+
+    def head lines
+      l = [ ]
+      (1..lines).each { |i| l[i-1] = @ged.gets.chomp }
+      return l
     end
 
     def parse_gedcom
@@ -28,7 +34,7 @@ module GedcomsHelper
 
       def tokenize
         tokens = [ ]
-        tokens = @log.gets.split
+        tokens = @ged.gets.split
         @token = tokens.last
         tokens
       end
@@ -46,7 +52,7 @@ module GedcomsHelper
 
       def parse_birth
         tokens = [ ]
-        tokens = @log.gets.split(' ',3)
+        tokens = @ged.gets.split(' ',3)
         @token = tokens.last
         while tokens.first > '1' do
           if tokens[1] == 'PLAC' then
@@ -58,7 +64,7 @@ module GedcomsHelper
               @birthplaces[p] = 1
             end
           end
-          tokens = @log.gets.split(' ',3)
+          tokens = @ged.gets.split(' ',3)
           @token = tokens.last
         end
       end

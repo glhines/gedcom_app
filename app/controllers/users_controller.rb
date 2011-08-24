@@ -12,6 +12,7 @@ class UsersController < ApplicationController
   def show
     @user  = User.find(params[:id])
     @microposts = @user.microposts.paginate(:page => params[:page])
+    @gedcom = @user.gedcom
     @title = @user.name
   end
   
@@ -66,7 +67,7 @@ class UsersController < ApplicationController
     @users = @user.followers.paginate(:page => params[:page])
     render 'show_follow'
   end
-
+ 
   private
 
     def correct_user
