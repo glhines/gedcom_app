@@ -1,8 +1,8 @@
 # Be sure to restart your server when you modify this file.
 
-SampleApp310::Application.config.session_store :cookie_store, key: '_sample_app_310_session'
+GedcomApp::Application.config.session_store :cookie_store, key: '_gedcom_app_session'
 
 # Use the database for sessions instead of the cookie-based default,
 # which shouldn't be used to store highly confidential information
 # (create the session table with "rails generate session_migration")
-# SampleApp310::Application.config.session_store :active_record_store
+# GedcomApp::Application.config.session_store :active_record_store
