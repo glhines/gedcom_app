@@ -7,7 +7,7 @@ require 'rake'
 require 'rake/dsl_definition'
 
 # Workaround for rake 0.9.2 issue: uninitialized constant Rake::DSL 
-module ::SampleApp310
+module ::GedcomApp
   class Application
     include Rake::DSL
   end
@@ -17,4 +17,4 @@ module ::RakeFileUtils
   extend Rake::FileUtilsExt
 end
 
-SampleApp310::Application.load_tasks
+GedcomApp::Application.load_tasks
