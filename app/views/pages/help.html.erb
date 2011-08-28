@@ -21,10 +21,26 @@ file before.
     and export them in a GEDCOM file.</li>
     <li>Upload the GEDCOM file to your 
     <%= if signed_in? then 
-          link_to "Settings page", edit_user_path(current_user)
+          link_to "Profile page", current_user
         else 
-          "Settings page" 
+          "Profile page" 
         end %>.
+    </li>
+    <li>Click the link on your Profile page to analyze your GEDCOM.
+    A page will open showing the beginning of your GEDCOM.
+    Don't worry if you don't understand what is displayed here --
+    all GEDCOMs look like this!
+    This is just confirmation that your GEDCOM was uploaded OK.
+    </li>
+    <li>Clink the link for the report you are interested in:
+    <ul>
+      <li><strong>Birthplace Report</strong>.  Where were the people in the
+      GEDCOM born?
+      </li>
+      <li><strong>Delete GEDCOM</strong>.  Well, this isn't a report but it
+      allows you to delete the GEDCOM.
+      </li>
+    </ul>
     </li>
   </ol>
 </p>
