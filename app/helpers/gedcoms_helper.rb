@@ -2,14 +2,14 @@ module GedcomsHelper
   
   class GedcomFile
 
-    def initialize path
-      raise ArgumentError unless File.exists?( path )
-      @ged = File.open( path )
+    def initialize gedcom
+      raise ArgumentError unless gedcom.exists?
+      @ged = gedcom.to_file
       @token = ''
       @birthplaces = { }
     end
 
-    def head lines
+    def head(lines = 10)
       l = [ ]
       (1..lines).each { |i| l[i-1] = @ged.gets.chomp }
       return l

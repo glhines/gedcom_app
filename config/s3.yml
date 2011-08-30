@@ -1,0 +1,13 @@
+# Config for Amazon Web Services (AWS) Simple Storage Service (S3)
+development:
+  bucket: gedcom_app-dev
+  access_key_id: <%= ENV['S3_KEY'] %>
+  secret_access_key: <%= ENV['S3_SECRET'] %>
+test:
+  bucket: gedcom_app-test
+  access_key_id: <%= ENV['S3_KEY'] %>
+  secret_access_key: <%= ENV['S3_SECRET'] %>
+production:
+  bucket: gedcom_app-pro
+  access_key_id: <%= ENV['S3_KEY'] %>
+  secret_access_key: <%= ENV['S3_SECRET'] %>

@@ -39,6 +39,10 @@ GEM
     autotest-growl (0.2.9)
     autotest-rails-pure (4.1.2)
     autotest-standalone (4.5.5)
+    aws-s3 (0.6.2)
+      builder
+      mime-types
+      xml-simple
     bcrypt-ruby (2.1.4-x86-mingw32)
     builder (3.0.0)
     cocaine (0.1.0)
@@ -150,6 +154,7 @@ GEM
     windows-pr (1.2.0)
       win32-api (>= 1.4.5)
       windows-api (>= 0.3.0)
+    xml-simple (1.1.0)
 
 PLATFORMS
   x86-mingw32
@@ -160,6 +165,7 @@ DEPENDENCIES
   autotest-growl (= 0.2.9)
   autotest-rails-pure (= 4.1.2)
   autotest-standalone (= 4.5.5)
+  aws-s3
   coffee-rails (~> 3.1.0.rc)
   factory_girl_rails (= 1.0)
   faker (= 0.3.1)

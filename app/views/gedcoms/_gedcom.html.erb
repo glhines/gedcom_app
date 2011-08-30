@@ -2,13 +2,13 @@
   <td class="gedcom_content">
     <span>
       <table class="gedcom_preview">
-        <% GedcomsHelper::GedcomFile.new(@gedcom.gedcom.path).head(10).each do |s| %>
-          <% begin %>
+        <% begin %>
+          <% GedcomsHelper::GedcomFile.new(@gedcom.gedcom).head(10).each do |s| %>
             <tr><td><%= s %></td></tr>
-          <% rescue %>
-            <% error_msg = "Format Error - Are you sure this is a GEDCOM?" %>
-            <% flash.now[:error] = error_msg %>
           <% end %>
+        <% rescue %>
+          <% error_msg = "Format Error - Are you sure this is a GEDCOM?" %>
+          <% flash.now[:error] = error_msg %>
         <% end %>
       </table>
     </span>
