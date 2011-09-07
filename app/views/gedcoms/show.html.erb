@@ -10,6 +10,9 @@
     </td>
   </tr>
   <tr>
+    <td>
+      <%= link_to "Birthplaces Report", birthplaces_gedcom_path(@gedcom) %>
+    </td>
   <% if current_user?(@gedcom.user) %>
     <td>
       <%= link_to "Delete GEDCOM", gedcom_path(@gedcom),

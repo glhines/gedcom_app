@@ -7,7 +7,7 @@
             <tr><td><%= s %></td></tr>
           <% end %>
         <% rescue %>
-          <% error_msg = "Format Error - Are you sure this is a GEDCOM?" %>
+          <% error_msg = "Could not display GEDCOM - try uploading it again" %>
           <% flash.now[:error] = error_msg %>
         <% end %>
       </table>

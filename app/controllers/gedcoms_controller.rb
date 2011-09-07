@@ -9,12 +9,18 @@ class GedcomsController < ApplicationController
   end
 
   def create
-    @gedcom = current_user.build_gedcom(params[:gedcom])
-    if @gedcom.save
-      flash[:success] = "GEDCOM uploaded!"
-      redirect_to root_path
-    else
-      render 'pages/home'
+    begin
+      @gedcom = current_user.build_gedcom!(params[:gedcom])
+      if @gedcom.save
+        flash[:success] = "GEDCOM uploaded!"
+        redirect_to root_path
+      else
+        render 'new'
+      end
+    rescue
+      flash[:error] = "Error uploading GEDCOM!"
+      @gedcom = Gedcom.new
+      render 'new'
     end
   end
     
@@ -27,6 +33,15 @@ class GedcomsController < ApplicationController
     @gedcom.destroy
     flash[:success] = "GEDCOM deleted."
     redirect_back_or root_path
+  end
+
+  def birthplaces
+    @title = "Birthplaces"
+    @gedcom = Gedcom.find(params[:id])
+    parser = GedcomsHelper::GedcomFile.new( @gedcom.gedcom )
+    parser.parse_gedcom
+    @birthplaces = parser.report_birthplaces
+    render 'show_birthplaces'
   end
 
   private

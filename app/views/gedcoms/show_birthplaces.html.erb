@@ -1,0 +1,22 @@
+<table class="profile" summary="Profile information">
+  <tr>
+    <td class="main">
+      <h1>
+        <%= "#{@gedcom.gedcom_file_name} Birthplaces" %>
+      </h1>
+    </td>
+  </tr>
+  <tr>
+    <% unless @birthplaces.empty? %>
+         <table>
+           <tr>
+             <td><strong>Birthplace</strong></td>
+             <td><strong>Count</strong></td>
+           </tr>
+          <% @birthplaces.each do |key, value| %>
+            <tr><td><%= key.join(', ') %></td><td><%= value %></td></tr>
+          <% end %>
+        </table>
+    <% end %>
+  </tr>
+</table>

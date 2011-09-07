@@ -25,9 +25,10 @@ module GedcomsHelper
     end
 
     def report_birthplaces
-      @birthplaces.sort.each do |key, value|
-        print key; print " = "; puts value
-      end
+#      @birthplaces.sort.each do |key, value|
+#        print key; print " = "; puts value
+#      end
+      return @birthplaces.sort
     end
 
     private

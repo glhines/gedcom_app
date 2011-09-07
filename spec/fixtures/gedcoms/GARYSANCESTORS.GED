@@ -1,0 +1,3867 @@
+0 HEAD
+1 SOUR TMG
+2 VERS v 7.04.0000
+1 SUBM @SUB1@
+1 GEDC
+2 VERS 5.5
+2 FORM LINEAGE-LINKED
+1 DEST GED55
+1 DATE 13 AUG 2010
+2 TIME 16:20
+1 CHAR ANSI
+1 FILE C:\Documents and Settings\Gary Hines\My Documents\The Master Genealogist v7\Export\GarysAncestors.ged
+0 @SUB1@ SUBM
+1 NAME Gary L. Hines
+0 @I1@ INDI
+1 NAME William /Lybarger/ 
+1 SEX M
+1 CHAN
+2 DATE 29 AUG 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 01 MAR 1815
+2 PLAC Erie County, Pennsylvania
+1 DEAT
+2 DATE 13 SEP 1899
+2 PLAC Ridge Township, Van Wert County, Ohio
+1 FAMS @F1@
+1 FAMC @F2@
+0 @I2@ INDI
+1 NAME Abigail /Lake/ 
+1 SEX F
+1 CHAN
+2 DATE 29 AUG 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 06 JUN 1819
+2 PLAC Ohio
+1 DEAT
+2 DATE 28 AUG 1894
+2 PLAC Jennings Township, Van Wert County, Ohio
+1 FAMS @F1@
+1 FAMC @F3@
+0 @I3@ INDI
+1 NAME William Shannon /Lybarger/ 
+1 SEX M
+1 CHAN
+2 DATE 22 MAY 2010                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 02 OCT 1840
+2 PLAC Knox County, Ohio
+1 DEAT
+2 DATE 30 JUL 1896
+2 PLAC Ridge Township, Van Wert County, Ohio
+1 PROB
+2 DATE 08 AUG 1896
+2 PLAC Van Wert County, Ohio
+1 FAMS @F4@
+1 FAMC @F1@
+0 @I12@ INDI
+1 NAME Amelia /Roush/ 
+1 SEX F
+1 CHAN
+2 DATE 22 MAY 2010                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 06 DEC 1843
+2 PLAC Fayette Township, Juniata County, Pennsylvania
+1 DEAT
+2 DATE 10 APR 1931
+2 PLAC Lima, Allen County, Ohio
+1 FAMS @F4@
+1 FAMS @F5@
+1 FAMS @F6@
+1 FAMC @F7@
+0 @I14@ INDI
+1 NAME Abbie Mae /Lybarger/ 
+1 SEX F
+1 CHAN
+2 DATE 05 FEB 2010                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 03 SEP 1866
+2 PLAC Ridge Township, Van Wert County, Ohio
+1 DEAT
+2 DATE 19 APR 1942
+2 PLAC Van Wert County Hospital, Van Wert, Van Wert County, Ohio
+1 FAMS @F8@
+1 FAMS @F9@
+1 FAMC @F4@
+0 @I18@ INDI
+1 NAME Robert Henry /Chambers/ 
+1 SEX M
+1 CHAN
+2 DATE 28 APR 2007                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 19 APR 1864
+2 PLAC York Township, Van Wert County, Ohio
+1 DEAT
+2 DATE 21 NOV 1911
+2 PLAC Hope Hospital, Fort Wayne, Allen County, Indiana
+1 FAMS @F8@
+1 FAMC @F10@
+0 @I26@ INDI
+1 NAME Martha Bernice /Chambers/ 
+1 SEX F
+1 CHAN
+2 DATE 28 APR 2007                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 DEAT
+2 DATE 26 NOV 1996
+2 PLAC St. Joseph Medical Center, Fort Wayne, Allen County, Indiana
+1 BIRT
+2 DATE 25 AUG 1903
+2 PLAC Ridge Township, Van Wert County, Ohio
+1 FAMS @F11@
+1 FAMC @F8@
+0 @I136@ INDI
+1 NAME Gaylord Newton /Baxter/ 
+1 SEX M
+1 CHAN
+2 DATE 20 MAY 2007                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 07 APR 1903
+2 PLAC Middle Point, Van Wert County, Ohio
+1 DEAT
+2 DATE 13 OCT 1966
+2 PLAC Findlay, Hancock County, Ohio
+1 WILL
+2 DATE 29 APR 1958
+2 PLAC Hancock County, Ohio
+1 FAMS @F11@
+1 FAMS @F12@
+1 FAMC @F13@
+0 @I137@ INDI
+1 NAME Alice Joan /Baxter/ 
+1 SEX F
+1 CHAN
+2 DATE 17 MAR 2007                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 PLAC Fort Wayne, Allen County, Indiana
+1 FAMS @F14@
+1 FAMC @F11@
+0 @I138@ INDI
+1 NAME Harold Ralph /Hines/ Jr.
+1 SEX M
+1 CHAN
+2 DATE 17 MAR 2007                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 DEAT
+2 DATE 27 AUG 1990
+2 PLAC St. Joseph Medical Center, Fort Wayne, Allen County, Indiana
+1 BIRT
+2 DATE 16 JUN 1926
+2 PLAC Fort Wayne, Allen County, Indiana
+1 FAMS @F14@
+1 FAMC @F15@
+0 @I1351@ INDI
+1 NAME John /Lybarger/ 
+1 SEX M
+1 CHAN
+2 DATE 02 JAN 2010                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 01 JAN 1787
+2 PLAC Bedford County, Pennsylvania
+1 DEAT
+2 DATE 01 AUG 1854
+1 FAMS @F2@
+1 FAMC @F16@
+0 @I1352@ INDI
+1 NAME Jane /MacNeil/ 
+1 SEX F
+1 CHAN
+2 DATE 02 JAN 2010                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 08 MAR 1791
+2 PLAC Pennsylvania
+1 DEAT
+2 DATE 30 JAN 1868
+2 PLAC Ohio
+1 FAMS @F2@
+1 FAMS @F17@
+1 FAMC @F18@
+0 @I1409@ INDI
+1 NAME Nicholas /Lybarger/ Jr.
+1 SEX M
+1 CHAN
+2 DATE 06 MAY 2001                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 1753
+2 PLAC Frederick County, Maryland
+1 DEAT
+2 DATE 16 FEB 1836
+2 PLAC Erie County, Pennsylvania
+1 FAMS @F16@
+1 FAMC @F19@
+0 @I1410@ INDI
+1 NAME Christina /Ried/ 
+1 SEX F
+1 CHAN
+2 DATE 08 DEC 2001                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE BET 1759 AND 1763
+2 PLAC New Jersey
+1 FAMS @F16@
+0 @I1411@ INDI
+1 NAME Nicholas /Lybarger/ Sr.
+1 SEX M
+1 CHAN
+2 DATE 26 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 WILL
+2 DATE 03 JUL 1803
+2 PLAC Bedford County, Pennsylvania
+1 BIRT
+2 DATE BEF 1735
+2 PLAC Völklingen, Saarbrücken Stadtverband, Saarland, Germany
+1 DEAT
+2 DATE MAR 1808
+2 PLAC Bedford County, Pennsylvania
+1 FAMS @F19@
+1 FAMC @F20@
+0 @I1412@ INDI
+1 NAME Anna Maria // 
+1 SEX F
+1 CHAN
+2 DATE 29 APR 2001                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1735
+1 FAMS @F19@
+0 @I1505@ INDI
+1 NAME Nicholas /Lake/ 
+1 SEX M
+1 CHAN
+2 DATE 29 AUG 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 DEAT
+2 DATE 25 FEB 1874
+2 PLAC Liberty Township, Warren County, Iowa
+1 BIRT
+2 DATE 25 FEB 1794
+2 PLAC Canada
+1 FAMS @F3@
+1 FAMC @F21@
+0 @I1506@ INDI
+1 NAME Sarah // 
+1 SEX F
+1 CHAN
+2 DATE 13 AUG 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 10 MAR 1796
+2 PLAC New Jersey
+1 DEAT
+2 DATE 20 OCT 1876
+1 FAMS @F3@
+0 @I1507@ INDI
+1 NAME William /MacNeil/ 
+1 SEX M
+1 CHAN
+2 DATE 02 FEB 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 FAMS @F18@
+0 @I1508@ INDI
+1 NAME Elizabeth /Edgar/ 
+1 SEX F
+1 CHAN
+2 DATE 02 FEB 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 FAMS @F18@
+1 FAMC @F22@
+0 @I1509@ INDI
+1 NAME William /Edgar/ 
+1 SEX M
+1 CHAN
+2 DATE 11 FEB 2001                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 FAMS @F22@
+0 @I1510@ INDI
+1 NAME Cornelius /Lake/ 
+1 SEX M
+1 CHAN
+2 DATE 23 AUG 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 12 JAN 1768
+2 PLAC New York
+1 DEAT
+2 DATE BEF 1856
+2 PLAC Knox County, Ohio
+1 FAMS @F21@
+1 FAMC @F23@
+0 @I1511@ INDI
+1 NAME Abigail // 
+1 SEX F
+1 CHAN
+2 DATE 26 AUG 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE BET 1768 AND 1770
+2 PLAC New York
+1 DEAT
+2 DATE 25 APR 1864
+2 PLAC Henry County, Iowa
+1 FAMS @F21@
+0 @I1512@ INDI
+1 NAME Jacob M. /Roush/ 
+1 SEX M
+1 CHAN
+2 DATE 22 MAY 2010                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 PROB
+2 DATE 21 APR 1894
+2 PLAC Lima, Allen County, Ohio
+1 BIRT
+2 DATE 28 JAN 1816
+2 PLAC Union County, Pennsylvania
+1 DEAT
+2 DATE 10 APR 1894
+2 PLAC Allen County, Ohio
+1 FAMS @F7@
+1 FAMS @F24@
+1 FAMC @F25@
+0 @I1513@ INDI
+1 NAME Hannah /Knarr/ 
+1 SEX F
+1 CHAN
+2 DATE 16 MAY 2010                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 03 JUN 1814
+2 PLAC Lehigh County, Pennsylvania
+1 DEAT
+2 DATE 17 OCT 1846
+2 PLAC Juniata County, Pennsylvania
+1 FAMS @F7@
+1 FAMC @F26@
+0 @I1514@ INDI
+1 NAME Anna Maria /Hunsicker/ 
+1 SEX F
+1 CHAN
+2 DATE 09 FEB 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 11 AUG 1787
+2 PLAC Northampton County, Pennsylvania
+1 DEAT
+2 DATE 01 MAR 1875
+2 PLAC Union County, Pennsylvania
+1 FAMS @F26@
+1 FAMC @F27@
+0 @I1515@ INDI
+1 NAME Abraham /Knarr/ 
+1 SEX M
+1 CHAN
+2 DATE 09 FEB 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 07 OCT 1781
+2 PLAC Lowhill Township, Northampton County, Pennsylvania
+1 DEAT
+2 DATE 04 AUG 1854
+2 PLAC North Liberty, Knox County, Ohio
+1 FAMS @F26@
+1 FAMC @F28@
+0 @I1516@ INDI
+1 NAME John /Knerr/ 
+1 SEX M
+1 CHAN
+2 DATE 09 FEB 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 11 AUG 1747
+2 PLAC Lowhill Township, Bucks County, Pennsylvania
+1 DEAT
+2 DATE 12 JUN 1825
+2 PLAC Weisenberg Township, Lehigh County, Pennsylvania
+1 FAMS @F28@
+1 FAMC @F29@
+0 @I1517@ INDI
+1 NAME Maria Catharina /Hartman/ 
+1 SEX F
+1 CHAN
+2 DATE 09 FEB 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 30 AUG 1753
+2 PLAC Maxatawny Township, Berks County, Pennsylvania
+1 DEAT
+2 DATE 07 NOV 1834
+2 PLAC Weisenberg Township, Lehigh County, Pennsylvania
+1 FAMS @F28@
+1 FAMC @F30@
+0 @I1518@ INDI
+1 NAME Henry /Hunsicker/ 
+1 SEX M
+1 CHAN
+2 DATE 16 FEB 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 PLAC Northampton County, Pennsylvania
+1 DEAT
+2 PLAC Lehigh County, Pennsylvania
+1 FAMS @F27@
+1 FAMC @F31@
+0 @I1519@ INDI
+1 NAME Maria Barbara /Haff/ 
+1 SEX F
+1 CHAN
+2 DATE 16 FEB 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 03 MAR 1769
+2 PLAC Northampton County, Pennsylvania
+1 DEAT
+2 DATE 17 JUL 1802
+2 PLAC Northhampton County, Pennsylvania
+1 FAMS @F27@
+1 FAMC @F32@
+0 @I1520@ INDI
+1 NAME George /Haff/ 
+1 SEX M
+1 CHAN
+2 DATE 21 APR 2007                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 PLAC Germany
+1 DEAT
+2 DATE 11 JUN 1773
+2 PLAC Northampton County, Pennsylvania
+1 FAMS @F32@
+0 @I1521@ INDI
+1 NAME Anna Maria // 
+1 SEX F
+1 CHAN
+2 DATE 21 APR 2007                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 10 APR 1740
+2 PLAC Germany
+1 DEAT
+2 DATE 11 FEB 1824
+2 PLAC West Penn Township, Schuylkill County, Pennsylvania
+1 FAMS @F32@
+1 FAMS @F33@
+0 @I1522@ INDI
+1 NAME Johannes /Hunsicker/ 
+1 SEX M
+1 CHAN
+2 DATE 16 FEB 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 PLAC Germany
+1 DEAT
+2 DATE BEF 17 DEC 1800
+2 PLAC Northampton County, Pennsylvania
+1 FAMS @F31@
+0 @I1523@ INDI
+1 NAME Magdalena // 
+1 SEX F
+1 CHAN
+2 DATE 16 FEB 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 PLAC Germany
+1 FAMS @F31@
+0 @I1524@ INDI
+1 NAME Johannes /Hartman/ 
+1 SEX M
+1 CHAN
+2 DATE 16 FEB 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1728
+2 PLAC Pennsylvania
+1 DEAT
+2 DATE BEF 03 JUN 1777
+2 PLAC Northampton County, Pennsylvania
+1 FAMS @F30@
+0 @I1525@ INDI
+1 NAME Maria Eva /Breinig/ 
+1 SEX F
+1 CHAN
+2 DATE 16 FEB 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1730
+1 DEAT
+2 DATE BET 1807 AND 1809
+2 PLAC Northampton County, Pennsylvania
+1 FAMS @F30@
+0 @I1526@ INDI
+1 NAME Abraham /Knerr/ 
+1 SEX M
+1 CHAN
+2 DATE 09 FEB 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 1714
+2 PLAC Diedendorf, Alsace, France
+1 DEAT
+2 DATE 21 APR 1793
+2 PLAC Lowhill Township, Northampton County, Pennsylvania
+1 FAMS @F29@
+0 @I1527@ INDI
+1 NAME Maria Eva /Faess/ 
+1 SEX F
+1 CHAN
+2 DATE 09 FEB 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 12 OCT 1713
+2 PLAC Berg, Saarwerden, Alsace, France
+1 DEAT
+2 DATE 20 JUN 1792
+2 PLAC Lowhill Township, Northampton County, Pennsylvania
+1 FAMS @F29@
+1 FAMC @F34@
+0 @I1528@ INDI
+1 NAME George /Roush/ 
+1 SEX M
+1 CHAN
+2 DATE 26 DEC 2001                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 04 APR 1776
+2 PLAC Northumberland County, Pennsylvania
+1 DEAT
+2 DATE FEB 1835
+2 PLAC Union County, Pennsylvania
+1 FAMS @F25@
+1 FAMC @F35@
+0 @I1529@ INDI
+1 NAME Mary /Mick/ 
+1 SEX F
+1 CHAN
+2 DATE 02 FEB 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 18 DEC 1779
+2 PLAC Pennsylvania
+1 DEAT
+2 DATE 17 JUL 1848
+2 PLAC Juniata County, Pennsylvania
+1 FAMS @F25@
+1 FAMC @F36@
+0 @I1530@ INDI
+1 NAME Andrew /Mick/ 
+1 SEX M
+1 CHAN
+2 DATE 02 FEB 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 FAMS @F36@
+0 @I1531@ INDI
+1 NAME John Jacob /Roush/ 
+1 SEX M
+1 CHAN
+2 DATE 02 FEB 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 22 JUL 1751
+2 PLAC Lancaster County, Pennsylvania
+1 DEAT
+2 DATE 03 DEC 1819
+2 PLAC Union County, Pennsylvania
+1 FAMS @F35@
+1 FAMC @F37@
+0 @I1532@ INDI
+1 NAME Barbara Elizabeth /Wittenmyer/ 
+1 SEX F
+1 CHAN
+2 DATE 02 FEB 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 FAMS @F35@
+1 FAMC @F38@
+0 @I1534@ INDI
+1 NAME Susanna // 
+1 SEX F
+1 CHAN
+2 DATE 02 FEB 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 PLAC Germany
+1 FAMS @F38@
+0 @I1535@ INDI
+1 NAME Georg Caspar /Rausch/ 
+1 SEX M
+1 CHAN
+2 DATE 02 FEB 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1721
+2 PLAC Germany
+1 DEAT
+2 DATE BEF 27 APR 1811
+2 PLAC Northumberland County, Pennsylvania
+1 FAMS @F37@
+1 FAMS @F39@
+1 FAMC @F40@
+0 @I1536@ INDI
+1 NAME Anna Margarethe /Haengen/ 
+1 SEX F
+1 CHAN
+2 DATE 15 DEC 2001                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 29 MAR 1717
+2 PLAC Hirzweiler, Neunkirchen, Saarland, Germany
+1 DEAT
+2 PLAC Northumberland County, Pennsylvania
+1 FAMS @F37@
+1 FAMC @F41@
+0 @I1908@ INDI
+1 NAME Nicholas /Lake/ 
+1 SEX M
+1 CHAN
+2 DATE 02 FEB 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE BET 1740 AND 1752
+2 PLAC Somerset County, New Jersey
+1 FAMS @F23@
+0 @I1909@ INDI
+1 NAME Mattie /Snyder/ 
+1 SEX F
+1 CHAN
+2 DATE 02 FEB 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BAPM
+2 DATE 19 JUN 1728
+2 PLAC Montgomery Township, Somerset County, New Jersey
+1 FAMS @F23@
+0 @I1957@ INDI
+1 NAME Harold Ralph /Hines/ Sr.
+1 SEX M
+1 CHAN
+2 DATE 04 OCT 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 27 JUN 1900
+2 PLAC Grand Rapids, Kent County, Michigan
+1 DEAT
+2 DATE 04 JUL 1968
+2 PLAC Parkview Memorial Hospital, Fort Wayne, Allen County, Indiana
+1 FAMS @F15@
+1 FAMC @F42@
+0 @I1958@ INDI
+1 NAME Ellen Arvilla /Lyons/ 
+1 SEX F
+1 CHAN
+2 DATE 08 JUL 2006                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 09 DEC 1906
+2 PLAC South Bend, St. Joseph County, Indiana
+1 DEAT
+2 DATE 24 JUL 1998
+2 PLAC The Cedars, Leo-Cedarville, Allen County, Indiana
+1 FAMS @F15@
+1 FAMC @F43@
+0 @I2019@ INDI
+1 NAME John Wesley /Lyons/ 
+1 SEX M
+1 CHAN
+2 DATE 03 OCT 2006                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 09 SEP 1874
+2 PLAC Howard Township, Cass County, Michigan
+1 DEAT
+2 DATE 17 FEB 1931
+2 PLAC Bertrand, Berrien County, Michigan
+1 FAMS @F43@
+1 FAMS @F44@
+1 FAMC @F45@
+0 @I2020@ INDI
+1 NAME Edith May /Gregory/ 
+1 SEX F
+1 CHAN
+2 DATE 03 OCT 2006                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 DEAT
+2 DATE 15 MAR 1953
+2 PLAC Fort Wayne, Allen County, Indiana
+1 BIRT
+2 DATE 04 MAY 1886
+2 PLAC South Bend, St. Joseph County, Indiana
+1 FAMS @F43@
+1 FAMS @F46@
+1 FAMC @F47@
+0 @I2040@ INDI
+1 NAME William Harvey /Gregory/ 
+1 SEX M
+1 CHAN
+2 DATE 03 OCT 2006                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 DEAT
+2 DATE 03 MAY 1919
+2 PLAC John Robinson Hospital, Allegan, Allegan County, Michigan
+1 BIRT
+2 DATE 06 FEB 1853
+2 PLAC Indiana
+1 FAMS @F47@
+1 FAMC @F48@
+0 @I2041@ INDI
+1 NAME Ellen Arvilla /Mack/ 
+1 SEX F
+1 CHAN
+2 DATE 13 OCT 2007                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 08 JUN 1855
+2 PLAC Indiana
+1 DEAT
+2 DATE 25 APR 1936
+2 PLAC Otsego, Allegan County, Michigan
+1 FAMS @F47@
+1 FAMC @F49@
+0 @I2052@ INDI
+1 NAME Alonzo Carry /Baxter/ 
+1 SEX M
+1 CHAN
+2 DATE 26 MAY 2007                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 22 SEP 1870
+2 PLAC Ohio
+1 DEAT
+2 DATE 10 MAR 1921
+2 PLAC Ridge Township, Van Wert County, Ohio
+1 FAMS @F13@
+1 FAMC @F50@
+0 @I2053@ INDI
+1 NAME Emma Belle /Young/ 
+1 SEX F
+1 CHAN
+2 DATE 10 NOV 2007                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 15 JUN 1869
+2 PLAC Tully Township, Van Wert County, Ohio
+1 DEAT
+2 DATE 23 NOV 1958
+2 PLAC Van Wert County Hospital, Van Wert, Van Wert County, Ohio
+1 FAMS @F13@
+1 FAMC @F51@
+0 @I2058@ INDI
+1 NAME Lena Carline /Hines/ 
+1 SEX F
+1 CHAN
+2 DATE 04 OCT 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 26 MAY 1880
+2 PLAC Detroit, Wayne County, Michigan
+1 DEAT
+2 DATE 02 OCT 1950
+2 PLAC Mercy Hospital, Benton Harbor, Berrien County, Michigan
+1 FAMS @F42@
+1 FAMS @F52@
+1 FAMS @F53@
+1 FAMC @F54@
+0 @I2121@ INDI
+1 NAME Harold L. /Hines/ 
+1 SEX M
+1 CHAN
+2 DATE 10 AUG 2002                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1868
+2 PLAC Grand Rapids, Kent County, Michigan
+1 FAMS @F42@
+0 @I2122@ INDI
+1 NAME John W. /Chambers/ 
+1 SEX M
+1 CHAN
+2 DATE 10 MAY 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 DEAT
+2 DATE 25 MAY 1883
+2 PLAC York Township, Van Wert County, Ohio
+1 BIRT
+2 DATE 21 MAR 1826
+2 PLAC Ireland
+1 FAMS @F10@
+1 FAMC @F55@
+0 @I2123@ INDI
+1 NAME Ellen /Cooke/ 
+1 SEX F
+1 CHAN
+2 DATE 10 MAY 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 DEAT
+2 DATE 28 SEP 1879
+2 PLAC Fredericktown, Knox County, Ohio
+1 BIRT
+2 DATE 21 NOV 1826
+2 PLAC Ireland
+1 FAMS @F10@
+1 FAMC @F56@
+0 @I2473@ INDI
+1 NAME Thomas /Baxter/ 
+1 SEX M
+1 CHAN
+2 DATE 09 JUN 2007                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 12 JUL 1813
+2 PLAC Allegheny County, Pennsylvania
+1 DEAT
+2 DATE 14 DEC 1893
+2 PLAC Convoy, Van Wert County, Ohio
+1 WILL
+2 DATE 20 FEB 1890
+2 PLAC Van Wert County, Ohio
+1 FAMS @F57@
+1 FAMC @F58@
+0 @I2474@ INDI
+1 NAME Nancy Jane /Sudduth/ 
+1 SEX F
+1 CHAN
+2 DATE 11 AUG 2007                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 DEAT
+2 DATE 09 DEC 1893
+2 PLAC Convoy, Van Wert County, Ohio
+1 BIRT
+2 DATE 15 NOV 1814
+2 PLAC Virginia
+1 FAMS @F57@
+1 FAMC @F59@
+0 @I2484@ INDI
+1 NAME William Long /Baxter/ 
+1 SEX M
+1 CHAN
+2 DATE 15 SEP 2007                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 05 AUG 1846
+2 PLAC Harrison County, Ohio
+1 DEAT
+2 DATE 20 OCT 1916
+2 PLAC Van Wert, Van Wert County, Ohio
+1 WILL
+2 DATE 16 OCT 1916
+2 PLAC Van Wert County, Ohio
+1 PROB
+2 DATE 1928
+2 PLAC Van Wert County, Ohio
+1 FAMS @F50@
+1 FAMC @F57@
+0 @I2485@ INDI
+1 NAME Sarah /Oberbeck/ 
+1 SEX F
+1 CHAN
+2 DATE 04 OCT 2007                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 DEAT
+2 DATE 21 OCT 1926
+2 PLAC Van Wert, Van Wert County, Ohio
+1 BIRT
+2 DATE 20 OCT 1841
+2 PLAC Bucks County, Pennsylvania
+1 FAMS @F50@
+1 FAMS @F60@
+1 FAMC @F61@
+0 @I2565@ INDI
+1 NAME Ursula /Kaiser/ 
+1 SEX F
+1 CHAN
+2 DATE 01 DEC 2007                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 DEAT
+2 DATE 14 DEC 1879
+1 BIRT
+2 DATE 24 APR 1840
+2 PLAC Ohio
+1 FAMS @F51@
+1 FAMC @F62@
+0 @I2602@ INDI
+1 NAME Elias /Sudduth/ 
+1 SEX M
+1 CHAN
+2 DATE 08 SEP 2007                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1760
+2 PLAC Stafford County, Virginia
+1 DEAT
+2 PLAC Van Wert County, Ohio
+1 FAMS @F59@
+1 FAMS @F63@
+1 FAMC @F64@
+0 @I2606@ INDI
+1 NAME John /Oberbeck/ 
+1 SEX M
+1 CHAN
+2 DATE 12 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 1812
+2 PLAC Bucks County, Pennsylvania
+1 FAMS @F61@
+1 FAMC @F65@
+0 @I2607@ INDI
+1 NAME Sophia /Beck/ 
+1 SEX F
+1 CHAN
+2 DATE 03 NOV 2007                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 09 SEP 1817
+2 PLAC Pennsylvania
+1 DEAT
+2 DATE 13 FEB 1884
+2 PLAC Kalida, Putnam County, Ohio
+1 FAMS @F61@
+1 FAMC @F66@
+0 @I2611@ INDI
+1 NAME John /Baxter/ 
+1 SEX M
+1 CHAN
+2 DATE 30 JUN 2007                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1778
+2 PLAC Ireland
+1 DEAT
+2 DATE BEF 1860
+2 PLAC Van Wert County, Ohio
+1 FAMS @F58@
+1 FAMC @F67@
+0 @I2612@ INDI
+1 NAME Rebecca /Wilson/ 
+1 SEX F
+1 CHAN
+2 DATE 16 JUN 2007                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE BET 1785 AND 1790
+2 PLAC Ireland
+1 PROB
+2 DATE 15 MAY 1869
+2 PLAC Van Wert County, Ohio
+1 DEAT
+2 DATE BEF 15 MAY 1869
+2 PLAC Van Wert County, Ohio
+1 FAMS @F58@
+0 @I2700@ INDI
+1 NAME Philip /Beck/ 
+1 SEX M
+1 CHAN
+2 DATE 04 OCT 2007                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1792
+2 PLAC Pennsylvania
+1 FAMS @F66@
+0 @I2701@ INDI
+1 NAME Susanna // 
+1 SEX F
+1 CHAN
+2 DATE 29 SEP 2007                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1793
+2 PLAC Pennsylvania
+1 FAMS @F66@
+0 @I2731@ INDI
+1 NAME John /Baxter/ 
+1 SEX M
+1 CHAN
+2 DATE 30 JUN 2007                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE BEF 1765
+2 PLAC Ireland
+1 PROB
+2 DATE 02 SEP 1815
+2 PLAC Harrison County, Ohio
+1 WILL
+2 DATE 25 JUL 1815
+2 PLAC Harrison County, Ohio
+1 DEAT
+2 DATE BEF 02 SEP 1815
+2 PLAC Harrison County, Ohio
+1 FAMS @F67@
+1 FAMC @F68@
+0 @I2732@ INDI
+1 NAME Mary // 
+1 SEX F
+1 CHAN
+2 DATE 30 JUN 2007                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1750
+2 PLAC Ireland
+1 FAMS @F67@
+0 @I2764@ INDI
+1 NAME Caty /Williams/ 
+1 SEX F
+1 CHAN
+2 DATE 11 AUG 2007                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE BET 1766 AND 1770
+1 FAMS @F59@
+1 FAMC @F69@
+0 @I2765@ INDI
+1 NAME Elizabeth // 
+1 SEX F
+1 CHAN
+2 DATE 12 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 FAMS @F69@
+0 @I2805@ INDI
+1 NAME Benjamin /Sudduth/ 
+1 SEX M
+1 CHAN
+2 DATE 12 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 FAMS @F64@
+1 FAMC @F70@
+0 @I2865@ INDI
+1 NAME Mary /Sebastian/ 
+1 SEX F
+1 CHAN
+2 DATE 12 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 PLAC Stafford County, Virginia
+1 FAMS @F64@
+1 FAMC @F71@
+0 @I2953@ INDI
+1 NAME Isabella /Batey/ 
+1 SEX F
+1 CHAN
+2 DATE 18 NOV 2006                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1802
+2 PLAC Ireland
+1 DEAT
+2 DATE 30 AUG 1885
+2 PLAC Pike Township, Knox County, Ohio
+1 FAMS @F55@
+0 @I3072@ INDI
+1 NAME James H. /Gregory/ 
+1 SEX M
+1 CHAN
+2 DATE 08 MAY 2010                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1810
+2 PLAC Franklin County, Pennsylvania
+1 DEAT
+2 DATE 28 MAR 1891
+1 WILL
+2 DATE 01 JUN 1887
+2 PLAC St. Joseph County, Indiana
+1 FAMS @F48@
+1 FAMC @F72@
+0 @I3081@ INDI
+1 NAME Mary /Robinson/ 
+1 SEX F
+1 CHAN
+2 DATE 16 SEP 2006                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 DEAT
+2 DATE 20 APR 1879
+1 BIRT
+2 DATE 30 JUN 1812
+2 PLAC Franklin County, Pennsylvania
+1 FAMS @F48@
+0 @I3086@ INDI
+1 NAME George /Gregory/ 
+1 SEX M
+1 CHAN
+2 DATE 18 APR 2010                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1780
+1 DEAT
+2 DATE BEF 15 APR 1844
+2 PLAC Stark County, Ohio
+1 WILL
+2 DATE 06 JAN 1844
+2 PLAC Stark County, Ohio
+1 FAMS @F72@
+1 FAMC @F73@
+0 @I3211@ INDI
+1 NAME Henry /Kaiser/ 
+1 SEX M
+1 CHAN
+2 DATE 02 JAN 2010                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1792
+2 PLAC Switzerland
+1 DEAT
+2 DATE 20 JAN 1876
+2 PLAC Ohio
+1 FAMS @F62@
+0 @I3213@ INDI
+1 NAME Unknown //
+1 SEX F
+1 CHAN
+2 DATE 17 MAY 2000                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 DEAT
+2 DATE ABT 1840
+1 FAMS @F62@
+0 @I3290@ INDI
+1 NAME William /Irvine/ 
+1 SEX M
+1 CHAN
+2 DATE 19 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 FAMS @F74@
+0 @I3291@ INDI
+1 NAME Mary // 
+1 SEX F
+1 CHAN
+2 DATE 19 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1780
+2 PLAC Ireland
+1 DEAT
+2 DATE 26 APR 1850
+2 PLAC Knox County, Ohio
+1 FAMS @F74@
+0 @I3292@ INDI
+1 NAME Anne /Irvine/ 
+1 SEX F
+1 CHAN
+2 DATE 19 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 01 MAR 1801
+2 PLAC Tempo, County Fermanagh, Ireland
+1 DEAT
+2 DATE 28 JAN 1864
+2 PLAC Knox County, Ohio
+1 FAMS @F56@
+1 FAMC @F74@
+0 @I3298@ INDI
+1 NAME Edward /Cooke/ 
+1 SEX M
+1 CHAN
+2 DATE 19 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1799
+2 PLAC County Fermanagh, Ireland
+1 DEAT
+2 DATE 02 JUN 1847
+2 PLAC Knox County, Ohio
+1 FAMS @F56@
+0 @I3307@ INDI
+1 NAME Johann Nicolaus /Leyenberger/ 
+1 SEX M
+1 CHAN
+2 DATE 26 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE BEF 04 OCT 1705
+2 PLAC Völklingen, Saarbrücken Stadtverband, Saarland, Germany
+1 DEAT
+2 DATE AFT 1763
+2 PLAC Maryland
+1 FAMS @F20@
+1 FAMS @F75@
+1 FAMC @F76@
+0 @I3360@ INDI
+1 NAME Harper /Mack/ 
+1 SEX M
+1 CHAN
+2 DATE 19 SEP 2006                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1806
+2 PLAC New York
+1 DEAT
+2 DATE BET 05 MAY 1877 AND 14 MAY 1877
+1 WILL
+2 DATE 05 MAY 1877
+2 PLAC St. Joseph County, Indiana
+1 FAMS @F49@
+0 @I3362@ INDI
+1 NAME Lewis C. /Lyons/ 
+1 SEX M
+1 CHAN
+2 DATE 20 OCT 2002                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 09 AUG 1851
+2 PLAC Cass County, Michigan
+1 DEAT
+2 DATE 09 SEP 1876
+2 PLAC Howard Township, Cass County, Michigan
+1 FAMS @F45@
+1 FAMC @F77@
+0 @I3363@ INDI
+1 NAME Sarah Catherine /Conradt/ 
+1 SEX F
+1 CHAN
+2 DATE 02 FEB 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 21 NOV 1856
+2 PLAC Marshall County, Indiana
+1 DEAT
+2 DATE 09 SEP 1876
+2 PLAC Howard Township, Cass County, Michigan
+1 FAMS @F45@
+1 FAMC @F78@
+0 @I3364@ INDI
+1 NAME William /Chambers/ 
+1 SEX M
+1 CHAN
+2 DATE 23 DEC 2002                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 PLAC Ireland
+1 DEAT
+2 DATE ABT 1842
+2 PLAC Pittsburgh, Allegheny County, Pennsylvania
+1 FAMS @F55@
+0 @I3386@ INDI
+1 NAME John Conrad /Oberbeck/ 
+1 SEX M
+1 CHAN
+2 DATE 12 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 1786
+2 PLAC Pennsylvania
+1 DEAT
+2 PLAC Pennsylvania
+1 FAMS @F65@
+1 FAMC @F79@
+0 @I3387@ INDI
+1 NAME John George /Oberbeck/ 
+1 SEX M
+1 CHAN
+2 DATE 12 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BAPM
+2 PLAC Dannstadt, Pfalz, Germany
+1 DEAT
+2 PLAC Nockamixon Township, Bucks County, Pennsylvania
+1 FAMS @F79@
+1 FAMC @F80@
+0 @I3388@ INDI
+1 NAME Maria Magdalena /Muckley/ 
+1 SEX F
+1 CHAN
+2 DATE 12 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+1 DEAT
+2 PLAC Nockamixon Township, Bucks County, Pennsylvania
+1 FAMS @F79@
+1 FAMC @F81@
+0 @I3389@ INDI
+1 NAME David /Muckley/ 
+1 SEX M
+1 CHAN
+2 DATE 15 SEP 2001                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 WILL
+2 DATE 02 MAR 1786
+2 PLAC Bucks County, Pennsylvania
+1 FAMS @F81@
+0 @I3390@ INDI
+1 NAME Anna Barbara // 
+1 SEX F
+1 CHAN
+2 DATE 25 AUG 2001                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 FAMS @F81@
+0 @I3442@ INDI
+1 NAME Wilhelm /Rausch/ 
+1 SEX M
+1 CHAN
+2 DATE 15 DEC 2001                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 1686
+2 PLAC Hirzweiler, Neunkirchen, Saarland, Germany
+1 DEAT
+2 DATE 13 JUN 1767
+2 PLAC Niederlinxweiler, St. Wendel, Saarland, Germany
+1 FAMS @F40@
+1 FAMC @F82@
+0 @I3443@ INDI
+1 NAME Mathias /Rausch/ 
+1 SEX M
+1 CHAN
+2 DATE 02 FEB 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 FAMS @F82@
+0 @I3444@ INDI
+1 NAME Lucia /Schuh/ 
+1 SEX F
+1 CHAN
+2 DATE 02 FEB 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 FAMS @F82@
+0 @I3445@ INDI
+1 NAME Maria Margaretha /Gabler/ 
+1 SEX F
+1 CHAN
+2 DATE 15 DEC 2001                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 14 MAY 1682
+2 PLAC Niederlinxweiler, St. Wendel, Saarland, Germany
+1 DEAT
+2 DATE 11 APR 1735
+1 FAMS @F40@
+1 FAMC @F83@
+0 @I3451@ INDI
+1 NAME Hans Jakob /Haengen/ 
+1 SEX M
+1 CHAN
+2 DATE 02 FEB 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 FAMS @F41@
+0 @I3452@ INDI
+1 NAME Maria Magdalena /Kremp/ 
+1 SEX F
+1 CHAN
+2 DATE 02 FEB 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 FAMS @F41@
+1 FAMC @F84@
+0 @I3453@ INDI
+1 NAME Johann Nicolas /Kremp/ 
+1 SEX M
+1 CHAN
+2 DATE 02 FEB 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 FAMS @F84@
+0 @I3455@ INDI
+1 NAME Hans Martin /Gabler/ 
+1 SEX M
+1 CHAN
+2 DATE 15 DEC 2001                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 DEAT
+2 DATE 19 JAN 1689
+2 PLAC Niederlinxweiler, St. Wendel, Saarland, Germany
+1 FAMS @F83@
+1 FAMC @F85@
+0 @I3456@ INDI
+1 NAME Hans /Gabler/ 
+1 SEX M
+1 CHAN
+2 DATE 15 DEC 2001                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 DEAT
+2 DATE 09 DEC 1672
+2 PLAC Niederlinxweiler, St. Wendel, Saarland, Germany
+1 FAMS @F85@
+1 FAMC @F86@
+0 @I3457@ INDI
+1 NAME Terentius /Gabler/ 
+1 SEX M
+1 CHAN
+2 DATE 15 DEC 2001                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 DEAT
+2 DATE 17 NOV 1677
+2 PLAC Steinbach, Neunkirchen, Saarland, Germany
+1 FAMS @F86@
+0 @I3458@ INDI
+1 NAME N. /Elss/ 
+1 SEX F
+1 CHAN
+2 DATE 02 FEB 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 FAMS @F86@
+0 @I3459@ INDI
+1 NAME Eva // 
+1 SEX F
+1 CHAN
+2 DATE 15 DEC 2001                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 DEAT
+2 DATE 21 MAY 1674
+1 FAMS @F85@
+0 @I3462@ INDI
+1 NAME Catharina /De la Ferre/ 
+1 SEX F
+1 CHAN
+2 DATE 02 FEB 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 FAMS @F83@
+1 FAMC @F87@
+0 @I3471@ INDI
+1 NAME Caspar /De la Ferre/ 
+1 SEX M
+1 CHAN
+2 DATE 02 FEB 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 FAMS @F87@
+0 @I3472@ INDI
+1 NAME Barbel // 
+1 SEX F
+1 CHAN
+2 DATE 15 DEC 2001                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 DEAT
+2 DATE JAN 1695
+2 PLAC Niederlinxweiler, St. Wendel, Saarland, Germany
+1 FAMS @F87@
+0 @I3551@ INDI
+1 NAME Unknown //
+1 SEX M
+1 CHAN
+2 DATE 13 JUL 2002                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 PLAC Germany
+1 FAMS @F54@
+0 @I3552@ INDI
+1 NAME Unknown //
+1 SEX F
+1 CHAN
+2 DATE 13 JUL 2002                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 PLAC Germany
+1 FAMS @F54@
+0 @I3596@ INDI
+1 NAME Daniel /Conradt/ 
+1 SEX M
+1 CHAN
+2 DATE 09 FEB 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 DEAT
+2 DATE 29 OCT 1891
+2 PLAC Howard Township, Cass County, Michigan
+1 BIRT
+2 DATE 29 MAY 1820
+2 PLAC Pennsylvania
+1 FAMS @F78@
+1 FAMC @F88@
+0 @I3597@ INDI
+1 NAME Elizabeth /Kremer/ 
+1 SEX F
+1 CHAN
+2 DATE 09 FEB 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 14 DEC 1825
+2 PLAC Pennsylvania
+1 DEAT
+2 DATE 21 FEB 1902
+2 PLAC Bristol, Elkhart County, Indiana
+1 FAMS @F78@
+1 FAMC @F89@
+0 @I3598@ INDI
+1 NAME John /Lyons/ 
+1 SEX M
+1 CHAN
+2 DATE 20 OCT 2002                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1819
+2 PLAC New York
+1 FAMS @F77@
+1 FAMS @F90@
+0 @I3599@ INDI
+1 NAME Mary /Youngblood/ 
+1 SEX F
+1 CHAN
+2 DATE 09 NOV 2002                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1819
+2 PLAC Ohio
+1 FAMS @F77@
+1 FAMC @F91@
+0 @I3601@ INDI
+1 NAME Martha /Demoss/ 
+1 SEX F
+1 CHAN
+2 DATE 05 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE BET 1781 AND 1790
+1 FAMS @F91@
+1 FAMC @F92@
+0 @I3636@ INDI
+1 NAME Peter /Demoss/ 
+1 SEX M
+1 CHAN
+2 DATE 05 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+1 DEAT
+2 PLAC Hendricks County, Indiana
+1 FAMS @F92@
+0 @I3637@ INDI
+1 NAME Jacob /Conradt/ 
+1 SEX M
+1 CHAN
+2 DATE 05 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 PLAC Pennsylvania
+1 FAMS @F88@
+0 @I3638@ INDI
+1 NAME Sarah // 
+1 SEX F
+1 CHAN
+2 DATE 05 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 PLAC Pennsylvania
+1 FAMS @F88@
+0 @I3674@ INDI
+1 NAME John /Kremer/ 
+1 SEX M
+1 CHAN
+2 DATE 05 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 PLAC Pennsylvania
+1 FAMS @F89@
+0 @I3675@ INDI
+1 NAME Elizabeth // 
+1 SEX F
+1 CHAN
+2 DATE 05 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 PLAC Pennsylvania
+1 FAMS @F89@
+0 @I3728@ INDI
+1 NAME Mary /Gaff/ 
+1 SEX F
+1 CHAN
+2 DATE 17 APR 2010                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 DEAT
+2 DATE BEF 1830
+2 PLAC Stark County, Ohio
+1 BIRT
+2 DATE ABT 1784
+1 FAMS @F72@
+1 FAMC @F93@
+0 @I3729@ INDI
+1 NAME Mark /Gregory/ 
+1 SEX M
+1 CHAN
+2 DATE 15 JAN 2010                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 1745
+2 PLAC Ireland
+1 DEAT
+2 DATE AFT 1800
+1 FAMS @F73@
+0 @I3730@ INDI
+1 NAME Margaret /Harvey/ 
+1 SEX F
+1 CHAN
+2 DATE 16 JAN 2010                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 1747
+1 DEAT
+2 DATE AFT 1800
+1 FAMS @F73@
+0 @I3743@ INDI
+1 NAME Hugh /Gaff/ 
+1 SEX M
+1 CHAN
+2 DATE 24 APR 2010                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE BEF 1748
+1 WILL
+2 DATE 06 APR 1814
+2 PLAC Franklin County, Pennsylvania
+1 PROB
+2 DATE 21 NOV 1825
+2 PLAC Franklin County, Pennsylvania
+1 DEAT
+2 DATE BEF 21 NOV 1825
+1 FAMS @F93@
+0 @I3744@ INDI
+1 NAME Mary /Rule/ 
+1 SEX F
+1 CHAN
+2 DATE 17 APR 2010                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE BEF 1755
+1 FAMS @F93@
+1 FAMC @F94@
+0 @I3745@ INDI
+1 NAME John /Rule/ 
+1 SEX M
+1 CHAN
+2 DATE 24 APR 2010                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 WILL
+2 DATE 17 MAY 1793
+2 PLAC Franklin County, Pennsylvania
+1 BIRT
+2 DATE BEF 1727
+1 PROB
+2 DATE 14 MAY 1794
+2 PLAC Franklin County, Pennsylvania
+1 DEAT
+2 DATE BEF 14 MAY 1794
+1 FAMS @F94@
+0 @I3756@ INDI
+1 NAME Alice Ann /Stillwell/ 
+1 SEX F
+1 CHAN
+2 DATE 19 SEP 2006                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 27 APR 1813
+2 PLAC Covert, Seneca County, New York
+1 FAMS @F49@
+1 FAMC @F95@
+0 @I3778@ INDI
+1 NAME Elias /Stillwell/ 
+1 SEX M
+1 CHAN
+2 DATE 30 AUG 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 25 JUN 1776
+2 PLAC Middletown, Monmouth County, New Jersey
+1 DEAT
+2 DATE 13 JUN 1847
+2 PLAC Covert, Seneca County, New York
+1 FAMS @F95@
+1 FAMS @F96@
+1 FAMS @F97@
+1 FAMC @F98@
+0 @I3779@ INDI
+1 NAME Rebecca /Hoffmire/ 
+1 SEX F
+1 CHAN
+2 DATE 30 AUG 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 DEAT
+2 DATE 28 MAY 1815
+2 PLAC Covert, Seneca County, New York
+1 BIRT
+2 DATE 27 AUG 1782
+2 PLAC Freehold, Monmouth County, New Jersey
+1 FAMS @F95@
+1 FAMC @F99@
+0 @I3867@ INDI
+1 NAME William /Stillwell/ 
+1 SEX M
+1 CHAN
+2 DATE 13 JUL 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE BEF 1738
+1 DEAT
+2 DATE AFT 1787
+1 FAMS @F98@
+1 FAMC @F100@
+0 @I3883@ INDI
+1 NAME Ann /Jobs/ 
+1 SEX F
+1 CHAN
+2 DATE 13 JUL 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 FAMS @F98@
+0 @I3886@ INDI
+1 NAME Nicholas /Stillwell/ 
+1 SEX M
+1 CHAN
+2 DATE 13 JUL 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE AFT 1698
+2 PLAC Middletown, Monmouth County, New Jersey
+1 DEAT
+2 DATE BEF 19 MAR 1760
+2 PLAC Shrewsbury, Monmouth County, New Jersey
+1 FAMS @F100@
+1 FAMC @F101@
+0 @I3887@ INDI
+1 NAME Mary /Holmes/ 
+1 SEX F
+1 CHAN
+2 DATE 13 JUL 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 DEAT
+2 DATE AFT 1764
+1 FAMS @F100@
+1 FAMC @F102@
+0 @I3888@ INDI
+1 NAME Joseph /Holmes/ 
+1 SEX M
+1 CHAN
+2 DATE 13 JUL 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 FAMS @F102@
+0 @I3889@ INDI
+1 NAME Ann /Goulding/ 
+1 SEX F
+1 CHAN
+2 DATE 13 JUL 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 FAMS @F102@
+0 @I3898@ INDI
+1 NAME Elias /Stillwell/ 
+1 SEX M
+1 CHAN
+2 DATE 13 JUL 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE BEF 1665
+1 DEAT
+2 DATE BEF 1715
+2 PLAC Monmouth County, New Jersey
+1 FAMS @F101@
+1 FAMC @F103@
+0 @I3900@ INDI
+1 NAME Unknown //
+1 SEX F
+1 CHAN
+2 DATE 13 JUL 2003                  
+1 FAMS @F101@
+0 @I3905@ INDI
+1 TITL Capt.
+1 NAME Nicholas /Stillwell/ 
+1 SEX M
+1 CHAN
+2 DATE 30 AUG 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1640
+2 PLAC US
+1 DEAT
+2 DATE 1715
+2 PLAC Gravesend, Kings County, New York
+1 FAMS @F103@
+1 FAMC @F104@
+0 @I3906@ INDI
+1 NAME Rebecca /Bayles/ 
+1 SEX F
+1 CHAN
+2 DATE 13 JUL 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE BET 1640 AND 1650
+1 DEAT
+2 DATE BEF 1671
+1 FAMS @F103@
+1 FAMC @F105@
+0 @I3907@ INDI
+1 NAME John /Bayles/ 
+1 SEX M
+1 CHAN
+2 DATE 13 JUL 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 DEAT
+2 DATE ABT 1683
+2 PLAC Jamaica, Queens County, New York
+1 FAMS @F105@
+0 @I3908@ INDI
+1 TITL Lt.
+1 NAME Nicholas /Stillwell/ 
+1 SEX M
+1 CHAN
+2 DATE 30 AUG 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 1603
+2 PLAC St. Martin's, Dorking, Surrey, England
+1 DEAT
+2 DATE ABT 28 DEC 1671
+2 PLAC Dover, Richmond County, New York
+1 FAMS @F104@
+1 FAMC @F106@
+0 @I3914@ INDI
+1 NAME Isaac /Hoffmire/ 
+1 SEX M
+1 CHAN
+2 DATE 07 SEP 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BAPM
+2 DATE 05 MAR 1732
+2 PLAC Freehold, Monmouth County, New Jersey
+1 DEAT
+2 DATE BEF 10 MAY 1817
+2 PLAC Monmouth County, New Jersey
+1 FAMS @F99@
+1 FAMC @F107@
+0 @I3915@ INDI
+1 NAME Alice /Stillwell/ 
+1 SEX F
+1 CHAN
+2 DATE 07 SEP 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1737
+2 PLAC Monmouth County, New Jersey
+1 FAMS @F99@
+1 FAMC @F108@
+0 @I4037@ INDI
+1 NAME Samuel /Hoffmire/ 
+1 SEX M
+1 CHAN
+2 DATE 30 AUG 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE BEF 1695
+1 DEAT
+2 DATE 06 MAY 1754
+2 PLAC Middletown, Monmouth County, New Jersey
+1 FAMS @F107@
+1 FAMC @F109@
+0 @I4038@ INDI
+1 NAME Maria /Bedlow/ 
+1 SEX F
+1 CHAN
+2 DATE 30 AUG 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BAPM
+2 DATE 10 AUG 1709
+2 PLAC Dutch Reformed Church, New York, New York County, New York
+1 FAMS @F107@
+1 FAMC @F110@
+0 @I4039@ INDI
+1 NAME Samuel /Hoffmire/ 
+1 SEX M
+1 CHAN
+2 DATE 30 AUG 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1675
+1 DEAT
+2 DATE 1710
+2 PLAC Monmouth County, New Jersey
+1 FAMS @F109@
+1 FAMC @F111@
+0 @I4040@ INDI
+1 NAME Francis // 
+1 SEX F
+1 CHAN
+2 DATE 30 AUG 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1675
+1 FAMS @F109@
+0 @I4041@ INDI
+1 NAME William /Hoffmeyer/ Jr.
+1 SEX M
+1 CHAN
+2 DATE 30 AUG 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1656
+1 FAMS @F111@
+1 FAMC @F112@
+0 @I4042@ INDI
+1 NAME Anna Maria /Alricks/ 
+1 SEX F
+1 CHAN
+2 DATE 30 AUG 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 1650
+1 FAMS @F111@
+1 FAMS @F113@
+0 @I4043@ INDI
+1 NAME Willem /Hoffmeyer/ 
+1 SEX M
+1 CHAN
+2 DATE 30 AUG 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1636
+2 PLAC Brazil
+1 DEAT
+2 DATE BEF 1694
+2 PLAC Albany, Albany County, New York
+1 FAMS @F112@
+1 FAMC @F114@
+0 @I4044@ INDI
+1 NAME Maria /Tilton/ 
+1 SEX F
+1 CHAN
+2 DATE 30 AUG 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1638
+1 FAMS @F112@
+0 @I4045@ INDI
+1 NAME  /Hoffmeyer/ 
+1 SEX M
+1 CHAN
+2 DATE 30 AUG 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1610
+2 PLAC The Netherlands
+1 FAMS @F114@
+0 @I4046@ INDI
+1 NAME Geertruy /Hieronimius/ 
+1 SEX F
+1 CHAN
+2 DATE 30 AUG 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1618
+1 DEAT
+2 DATE BEF 1689
+2 PLAC Albany, Albany County, New York
+1 FAMS @F114@
+1 FAMS @F115@
+0 @I4049@ INDI
+1 NAME Isaac /Bedlow/ 
+1 SEX M
+1 CHAN
+2 DATE 30 AUG 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 FAMS @F110@
+0 @I4050@ INDI
+1 NAME Susanna /Brajor/ 
+1 SEX F
+1 CHAN
+2 DATE 30 AUG 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 FAMS @F110@
+0 @I4051@ INDI
+1 NAME Thomas /Stillwell/ Jr.
+1 SEX M
+1 CHAN
+2 DATE 07 SEP 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1704
+1 DEAT
+2 DATE BEF 11 MAY 1787
+1 FAMS @F108@
+1 FAMC @F116@
+0 @I4052@ INDI
+1 NAME Martha /Hubbard/ 
+1 SEX F
+1 CHAN
+2 DATE 07 SEP 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 FAMS @F108@
+0 @I4053@ INDI
+1 NAME Thomas /Stillwell/ Sr.
+1 SEX M
+1 CHAN
+2 DATE 30 AUG 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 04 DEC 1666
+1 DEAT
+2 DATE ABT 1739
+1 FAMS @F116@
+1 FAMC @F117@
+0 @I4054@ INDI
+1 NAME Alice /Throckmorton/ 
+1 SEX F
+1 CHAN
+2 DATE 30 AUG 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1682
+2 PLAC Middletown, Monmouth County, New Jersey
+1 DEAT
+2 DATE ABT 1758
+2 PLAC Middletown, Monmouth County, New Jersey
+1 FAMS @F116@
+1 FAMC @F118@
+0 @I4056@ INDI
+1 NAME Mary /Holmes/ 
+1 SEX F
+1 CHAN
+2 DATE 30 AUG 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 FAMS @F117@
+1 FAMC @F119@
+0 @I4057@ INDI
+1 NAME Abigail /Hopton/ 
+1 SEX F
+1 CHAN
+2 DATE 30 AUG 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 1610
+2 PLAC England
+1 FAMS @F104@
+0 @I4058@ INDI
+1 NAME Nicholas /Stillwell/ 
+1 SEX M
+1 CHAN
+2 DATE 30 AUG 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 02 OCT 1570
+2 PLAC Colletmore, Dorking, Surrey, England
+1 DEAT
+2 DATE 13 MAY 1647
+2 PLAC Dorking, Surrey, England
+1 FAMS @F106@
+1 FAMC @F120@
+0 @I4059@ INDI
+1 NAME Alice // 
+1 SEX F
+1 CHAN
+2 DATE 30 AUG 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 1570
+2 PLAC Dorking, Surrey, England
+1 DEAT
+2 DATE 27 MAY 1609
+1 FAMS @F106@
+0 @I4060@ INDI
+1 NAME John /Stillwell/ 
+1 SEX M
+1 CHAN
+2 DATE 30 AUG 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 05 SEP 1539
+2 PLAC Dorking, Surrey, England
+1 DEAT
+2 DATE 09 FEB 1584
+2 PLAC Dorking, Surrey, England
+1 FAMS @F120@
+1 FAMC @F121@
+0 @I4061@ INDI
+1 NAME Joan /Parle/ 
+1 SEX F
+1 CHAN
+2 DATE 30 AUG 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 1540
+2 PLAC Dorking, Surrey, England
+1 DEAT
+2 PLAC England
+1 FAMS @F120@
+0 @I4062@ INDI
+1 NAME John /Stillwell/ 
+1 SEX M
+1 CHAN
+2 DATE 30 AUG 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 FAMS @F121@
+0 @I4063@ INDI
+1 NAME Joane // 
+1 SEX F
+1 CHAN
+2 DATE 30 AUG 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 FAMS @F121@
+0 @I4064@ INDI
+1 NAME Obediah /Holmes/ 
+1 SEX M
+1 CHAN
+2 DATE 30 AUG 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 FAMS @F119@
+0 @I4065@ INDI
+1 NAME John /Throckmorton/ 
+1 SEX M
+1 CHAN
+2 DATE 30 AUG 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE BET 1650 AND 1652
+2 PLAC Providence, Providence County, Rhode Island
+1 DEAT
+2 DATE BEF 22 AUG 1690
+2 PLAC Middletown, Monmouth County, New Jersey
+1 FAMS @F118@
+1 FAMC @F122@
+0 @I4066@ INDI
+1 NAME Deliverance Alice /Stout/ 
+1 SEX F
+1 CHAN
+2 DATE 30 AUG 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 1651/52
+2 PLAC Gravesend, Kings County, New York
+1 DEAT
+2 DATE ABT 1702/3
+2 PLAC Middletown, Monmouth County, New Jersey
+1 FAMS @F118@
+1 FAMC @F123@
+0 @I4067@ INDI
+1 NAME John /Throckmorton/ I
+1 SEX M
+1 CHAN
+2 DATE 30 AUG 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1600
+2 PLAC England
+1 DEAT
+2 DATE AFT 17 MAR 1683/84
+2 PLAC Middletown, Monmouth County, New Jersey
+1 FAMS @F122@
+1 FAMC @F124@
+0 @I4068@ INDI
+1 NAME Rebecca /Covill/ 
+1 SEX F
+1 CHAN
+2 DATE 30 AUG 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1610
+2 PLAC England
+1 DEAT
+2 DATE BEF 1683
+1 FAMS @F122@
+1 FAMC @F125@
+0 @I4069@ INDI
+1 NAME Bassingbourne /Throckmorton/ 
+1 SEX M
+1 CHAN
+2 DATE 30 AUG 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 DEAT
+2 DATE 21 SEP 1638
+2 PLAC Norwich, Norfolk, England
+1 BIRT
+2 DATE 1564
+2 PLAC Couthton, Suffolk, England
+1 WILL
+2 DATE 10 SEP 1638
+2 PLAC England
+1 FAMS @F124@
+0 @I4070@ INDI
+1 NAME Mary /Hill/ 
+1 SEX F
+1 CHAN
+2 DATE 30 AUG 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1568
+2 PLAC Norwich, Norfolk, England
+1 FAMS @F124@
+0 @I4071@ INDI
+1 NAME Edward /Covill/ 
+1 SEX M
+1 CHAN
+2 DATE 30 AUG 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 DEAT
+2 DATE ABT 1679
+1 FAMS @F125@
+0 @I4072@ INDI
+1 NAME Richard /Stout/ 
+1 SEX M
+1 CHAN
+2 DATE 30 AUG 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 1615
+2 PLAC Nottingham, Nottinghamshire, England
+1 DEAT
+2 DATE 23 OCT 1705
+2 PLAC Middletown, Monmouth County, New Jersey
+1 FAMS @F123@
+1 FAMC @F126@
+0 @I4073@ INDI
+1 NAME Penelope /Van Princis/ 
+1 SEX F
+1 CHAN
+2 DATE 30 AUG 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1622/23
+2 PLAC Amsterdam, Holland
+1 DEAT
+2 DATE 1700
+2 PLAC Middletown, Monmouth County, New Jersey
+1 FAMS @F123@
+1 FAMC @F127@
+0 @I4074@ INDI
+1 NAME John /Staught/ 
+1 SEX M
+1 CHAN
+2 DATE 30 AUG 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 1580
+2 PLAC Burton Joyce, Nottinghamshire, England
+1 DEAT
+2 DATE ABT 1620
+2 PLAC Nottingham, Nottinghamshire, England
+1 FAMS @F126@
+1 FAMC @F128@
+0 @I4075@ INDI
+1 NAME Elizabeth /Bee/ 
+1 SEX F
+1 CHAN
+2 DATE 30 AUG 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 01 JAN 1592
+2 PLAC Nottingham, Nottinghamshire, England
+1 DEAT
+2 DATE 1640
+1 FAMS @F126@
+1 FAMC @F129@
+0 @I4076@ INDI
+1 NAME Thomas /Staught/ 
+1 SEX M
+1 CHAN
+2 DATE 30 AUG 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 FAMS @F128@
+0 @I4077@ INDI
+1 NAME Sarah /Moon/ 
+1 SEX F
+1 CHAN
+2 DATE 30 AUG 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 FAMS @F128@
+0 @I4078@ INDI
+1 NAME William /Bee/ 
+1 SEX M
+1 CHAN
+2 DATE 30 AUG 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1567
+1 FAMS @F129@
+0 @I4079@ INDI
+1 TITL Baron
+1 NAME  /Van Printzen/ 
+1 SEX M
+1 CHAN
+2 DATE 30 AUG 2003                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1598
+2 PLAC Holland
+1 FAMS @F127@
+0 @I5000@ INDI
+1 NAME  /Baxter/ 
+1 SEX M
+1 CHAN
+2 DATE 16 JUN 2007                  
+1 FAMS @F68@
+0 @I5049@ INDI
+1 NAME Christina /Klein/ 
+1 SEX F
+1 CHAN
+2 DATE 12 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1790
+2 PLAC Pennsylvania
+1 DEAT
+2 PLAC Bucks County, Pennsylvania
+1 FAMS @F65@
+1 FAMC @F130@
+0 @I5069@ INDI
+1 NAME Elizabeth /Bishop/ 
+1 SEX F
+1 CHAN
+2 DATE 12 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1801
+2 PLAC Maryland
+1 FAMS @F131@
+1 FAMC @F132@
+0 @I5078@ INDI
+1 NAME Mary /Mason/ 
+1 SEX F
+1 CHAN
+2 DATE 21 DEC 2007                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 FAMS @F133@
+1 FAMC @F134@
+0 @I5080@ INDI
+1 NAME Barbara /Cox/ 
+1 SEX F
+1 CHAN
+2 DATE 21 DEC 2007                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 FAMS @F135@
+0 @I5081@ INDI
+1 NAME Martin /Mason/ 
+1 SEX M
+1 CHAN
+2 DATE 21 DEC 2007                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 FAMS @F134@
+1 FAMC @F136@
+0 @I5082@ INDI
+1 NAME Christine /Waits/ 
+1 SEX F
+1 CHAN
+2 DATE 21 DEC 2007                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 FAMS @F134@
+1 FAMC @F137@
+0 @I5083@ INDI
+1 NAME Philip /Maurer/ 
+1 SEX M
+1 CHAN
+2 DATE 21 DEC 2007                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 FAMS @F136@
+0 @I5084@ INDI
+1 NAME Anna Margaretha // 
+1 SEX F
+1 CHAN
+2 DATE 21 DEC 2007                  
+1 FAMS @F136@
+0 @I5086@ INDI
+1 NAME Ann /DeLoss/ 
+1 SEX F
+1 CHAN
+2 DATE 21 DEC 2007                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 FAMS @F137@
+0 @I5087@ INDI
+1 NAME John /Bishop/ 
+1 SEX M
+1 CHAN
+2 DATE 12 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 FAMS @F132@
+0 @I5088@ INDI
+1 NAME Hannah /Cooper/ 
+1 SEX F
+1 CHAN
+2 DATE 12 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 FAMS @F132@
+0 @I5106@ INDI
+1 NAME Anna Maria Elizabeth /Heinrich/ 
+1 SEX F
+1 CHAN
+2 DATE 05 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 FAMS @F138@
+0 @I5107@ INDI
+1 NAME Nicholas /Jungblut/ 
+1 SEX M
+1 CHAN
+2 DATE 05 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 PLAC Germany
+1 FAMS @F139@
+0 @I5108@ INDI
+1 NAME Anna Maria /Kappler/ 
+1 SEX F
+1 CHAN
+2 DATE 05 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 PLAC Germany
+1 FAMS @F139@
+0 @I5109@ INDI
+1 NAME Mary /Mellinger/ 
+1 SEX F
+1 CHAN
+2 DATE 05 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 FAMS @F92@
+0 @I5110@ INDI
+1 NAME Robert /Suddarth/ 
+1 SEX M
+1 CHAN
+2 DATE 12 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 DEAT
+2 PLAC Stafford County, Virginia
+1 FAMS @F70@
+0 @I5111@ INDI
+1 NAME Diane // 
+1 SEX F
+1 CHAN
+2 DATE 12 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 FAMS @F70@
+0 @I5112@ INDI
+1 NAME Isaac /Sebastian/ 
+1 SEX M
+1 CHAN
+2 DATE 12 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 FAMS @F71@
+0 @I5113@ INDI
+1 NAME Rachel /Spicer/ 
+1 SEX F
+1 CHAN
+2 DATE 12 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 FAMS @F71@
+0 @I5114@ INDI
+1 NAME Andreas /Oberbeck/ 
+1 SEX M
+1 CHAN
+2 DATE 12 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 PLAC Germany
+1 DEAT
+2 PLAC Bucks County, Pennsylvania
+1 FAMS @F80@
+0 @I5115@ INDI
+1 NAME Elizabeth /Drach/ 
+1 SEX F
+1 CHAN
+2 DATE 12 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 DEAT
+2 PLAC Bucks County, Pennsylvania
+1 FAMS @F80@
+0 @I5116@ INDI
+1 NAME John Jacob /Klein/ 
+1 SEX M
+1 CHAN
+2 DATE 12 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 PLAC Montgomery County, Pennsylvania
+1 DEAT
+2 PLAC Montgomery County, Pennsylvania
+1 FAMS @F130@
+0 @I5117@ INDI
+1 NAME Eva Elizabetha /Heilig/ 
+1 SEX F
+1 CHAN
+2 DATE 12 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+1 DEAT
+2 PLAC Montgomery County, Pennsylvania
+1 FAMS @F130@
+0 @I5118@ INDI
+1 NAME Maria Catharina /Kurtz/ 
+1 SEX F
+1 CHAN
+2 DATE 26 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 26 FEB 1702
+2 PLAC Wehrden, Saarbrücken Stadtverband, Saarland, Germany
+1 DEAT
+2 DATE AFT 1758
+2 PLAC Maryland
+1 FAMS @F20@
+1 FAMC @F140@
+0 @I5119@ INDI
+1 NAME Nicolaus /Leyenberger/ 
+1 SEX M
+1 CHAN
+2 DATE 26 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1660
+2 PLAC Switzerland
+1 DEAT
+2 DATE AFT 1739
+2 PLAC Maryland
+1 FAMS @F76@
+0 @I5120@ INDI
+1 NAME Anna Maria Margaretha /Müllmann/ 
+1 SEX F
+1 CHAN
+2 DATE 26 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 DEAT
+2 DATE 12 OCT 1710
+2 PLAC Völklingen, Saarbrücken Stadtverband, Saarland, Germany
+1 FAMS @F76@
+1 FAMC @F141@
+0 @I5121@ INDI
+1 NAME Mathias /Müllmann/ 
+1 SEX M
+1 CHAN
+2 DATE 26 JAN 2008                  
+1 DEAT
+2 DATE AFT 1693
+1 FAMS @F141@
+0 @I5122@ INDI
+1 NAME Katharina /Synnen/ 
+1 SEX F
+1 CHAN
+2 DATE 26 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 FAMS @F141@
+1 FAMC @F142@
+0 @I5123@ INDI
+1 NAME Claus /Synnen/ 
+1 SEX M
+1 CHAN
+2 DATE 26 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 FAMS @F142@
+1 FAMC @F143@
+0 @I5124@ INDI
+1 NAME Wolf /Synnen/ 
+1 SEX M
+1 CHAN
+2 DATE 26 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 DEAT
+2 DATE BEF 1672
+1 FAMS @F143@
+0 @I5125@ INDI
+1 NAME Ferdinand /Kurtz/ 
+1 SEX M
+1 CHAN
+2 DATE 26 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE 1663
+1 DEAT
+2 DATE 25 FEB 1732
+2 PLAC Völklingen, Saarbrücken Stadtverband, Saarland, Germany
+1 FAMS @F140@
+1 FAMC @F144@
+0 @I5126@ INDI
+1 NAME Anna Elisabeth /Burger/ 
+1 SEX F
+1 CHAN
+2 DATE 26 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1665
+1 DEAT
+2 DATE 25 FEB 1732
+1 FAMS @F140@
+0 @I5127@ INDI
+1 NAME Christoph /Kurtz/ 
+1 SEX M
+1 CHAN
+2 DATE 26 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1640
+2 PLAC Wehrden, Saarbrücken Stadtverband, Saarland, Germany
+1 FAMS @F144@
+1 FAMC @F145@
+0 @I5128@ INDI
+1 NAME Elisabeth /Lützenburger/ 
+1 SEX F
+1 CHAN
+2 DATE 26 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1640
+2 PLAC Völklingen, Saarbrücken Stadtverband, Saarland, Germany
+1 DEAT
+2 DATE 30 APR 1724
+2 PLAC Völklingen, Saarbrücken Stadtverband, Saarland, Germany
+1 FAMS @F144@
+1 FAMC @F146@
+0 @I5129@ INDI
+1 NAME Konrad /Kurtz/ 
+1 SEX M
+1 CHAN
+2 DATE 26 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1610
+2 PLAC Wehrden, Saarbrücken Stadtverband, Saarland, Germany
+1 DEAT
+2 DATE 29 JUN 1697
+2 PLAC Völklingen, Saarbrücken Stadtverband, Saarland, Germany
+1 FAMS @F145@
+1 FAMC @F147@
+0 @I5130@ INDI
+1 NAME Catharina // 
+1 SEX F
+1 CHAN
+2 DATE 26 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 FAMS @F145@
+0 @I5131@ INDI
+1 NAME Caspar /Kurtz/ 
+1 SEX M
+1 CHAN
+2 DATE 26 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1575
+2 PLAC Wehrden, Saarbrücken Stadtverband, Saarland, Germany
+1 DEAT
+2 DATE BEF 1636
+2 PLAC Wehrden, Saarbrücken Stadtverband, Saarland, Germany
+1 FAMS @F147@
+1 FAMC @F148@
+0 @I5132@ INDI
+1 NAME Catharina /Rücken/ 
+1 SEX F
+1 CHAN
+2 DATE 26 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1575
+1 FAMS @F147@
+1 FAMC @F149@
+0 @I5133@ INDI
+1 NAME Endreß /Kurtz/ 
+1 SEX M
+1 CHAN
+2 DATE 26 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1550
+2 PLAC Wehrden, Saarbrücken Stadtverband, Saarland, Germany
+1 DEAT
+2 DATE BEF 1633
+2 PLAC Wehrden, Saarbrücken Stadtverband, Saarland, Germany
+1 FAMS @F148@
+1 FAMC @F150@
+0 @I5134@ INDI
+1 NAME Anna /Peden/ 
+1 SEX F
+1 CHAN
+2 DATE 26 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1550
+1 FAMS @F148@
+0 @I5135@ INDI
+1 NAME Hans /Kurtz/ 
+1 SEX M
+1 CHAN
+2 DATE 26 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1520
+1 DEAT
+2 DATE AFT 1572
+1 FAMS @F150@
+0 @I5136@ INDI
+1 NAME Nickel /Rücken/ 
+1 SEX M
+1 CHAN
+2 DATE 26 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1560
+1 FAMS @F149@
+0 @I5137@ INDI
+1 NAME Christine /Rücken/ 
+1 SEX F
+1 CHAN
+2 DATE 26 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1560
+1 FAMS @F149@
+0 @I5138@ INDI
+1 NAME Daniel /Lützenburger/ 
+1 SEX M
+1 CHAN
+2 DATE 26 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1615
+2 PLAC Völklingen, Saarbrücken Stadtverband, Saarland, Germany
+1 DEAT
+2 DATE BEF 1705
+1 FAMS @F146@
+1 FAMC @F151@
+0 @I5139@ INDI
+1 NAME Margarethe // 
+1 SEX F
+1 CHAN
+2 DATE 26 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1615
+1 FAMS @F146@
+0 @I5140@ INDI
+1 NAME Claus /Lützenburger/ 
+1 SEX M
+1 CHAN
+2 DATE 26 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1590
+2 PLAC Völklingen, Saarbrücken Stadtverband, Saarland, Germany
+1 FAMS @F151@
+1 FAMC @F152@
+0 @I5141@ INDI
+1 NAME Elße /Schneider/ 
+1 SEX F
+1 CHAN
+2 DATE 26 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1590
+2 PLAC Wehrden, Saarbrücken Stadtverband, Saarland, Germany
+1 FAMS @F151@
+1 FAMC @F153@
+0 @I5142@ INDI
+1 NAME Merten /Lützenburger/ 
+1 SEX M
+1 CHAN
+2 DATE 26 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1550
+2 PLAC Völklingen, Saarbrücken Stadtverband, Saarland, Germany
+1 DEAT
+2 DATE BEF 1625
+1 FAMS @F152@
+1 FAMC @F154@
+0 @I5143@ INDI
+1 NAME Heybel // 
+1 SEX F
+1 CHAN
+2 DATE 26 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1560
+1 FAMS @F152@
+0 @I5144@ INDI
+1 NAME Jacob /Lützenburger/ 
+1 SEX M
+1 CHAN
+2 DATE 26 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1530
+2 PLAC Völklingen, Saarbrücken Stadtverband, Saarland, Germany
+1 FAMS @F154@
+0 @I5145@ INDI
+1 NAME  /Sienen/ 
+1 SEX F
+1 CHAN
+2 DATE 26 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1530
+2 PLAC Wehrden, Saarbrücken Stadtverband, Saarland, Germany
+1 FAMS @F154@
+1 FAMC @F155@
+0 @I5146@ INDI
+1 NAME Endres /Sienen/ 
+1 SEX M
+1 CHAN
+2 DATE 26 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1510
+2 PLAC Wehrden, Saarbrücken Stadtverband, Saarland, Germany
+1 FAMS @F155@
+0 @I5147@ INDI
+1 NAME Hans /Walter/ 
+1 SEX M
+1 CHAN
+2 DATE 26 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1570
+2 PLAC Wehrden, Saarbrücken Stadtverband, Saarland, Germany
+1 FAMS @F153@
+0 @I5148@ INDI
+1 NAME Tein /Fischer/ 
+1 SEX F
+1 CHAN
+2 DATE 26 JAN 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 BIRT
+2 DATE ABT 1570
+2 PLAC Wehrden, Saarbrücken Stadtverband, Saarland, Germany
+1 FAMS @F153@
+0 @I5149@ INDI
+1 NAME Andreas /Faess/ 
+1 SEX M
+1 CHAN
+2 DATE 09 FEB 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 FAMS @F34@
+0 @I5150@ INDI
+1 NAME Anna /Eichenberger/ 
+1 SEX F
+1 CHAN
+2 DATE 09 FEB 2008                  
+1 ANCI @SUB1@
+1 DESI @SUB1@
+1 DEAT
+2 DATE 1766
+1 FAMS @F34@
+0 @F1@ FAM
+1 HUSB @I1@
+1 WIFE @I2@
+1 CHIL @I3@
+1 MARR
+2 DATE 26 DEC 1839
+2 PLAC Knox County, Ohio
+0 @F2@ FAM
+1 HUSB @I1351@
+1 WIFE @I1352@
+1 CHIL @I1@
+1 MARR
+2 DATE BET 1806 AND 1809
+0 @F3@ FAM
+1 HUSB @I1505@
+1 WIFE @I1506@
+1 CHIL @I2@
+1 MARR
+2 DATE ABT 27 FEB 1816
+0 @F4@ FAM
+1 HUSB @I3@
+1 WIFE @I12@
+1 CHIL @I14@
+1 MARR
+2 DATE 10 AUG 1862
+2 PLAC Van Wert County, Ohio
+0 @F5@ FAM
+1 WIFE @I12@
+1 MARR
+2 DATE 28 AUG 1901
+2 PLAC Middle Point, Van Wert County, Ohio
+0 @F6@ FAM
+1 WIFE @I12@
+1 MARR
+2 DATE 20 FEB 1899
+2 PLAC Allen County, Ohio
+0 @F7@ FAM
+1 HUSB @I1512@
+1 WIFE @I1513@
+1 CHIL @I12@
+1 MARR
+0 @F8@ FAM
+1 HUSB @I18@
+1 WIFE @I14@
+1 CHIL @I26@
+1 MARR
+2 DATE 25 DEC 1887
+2 PLAC Van Wert, Van Wert County, Ohio
+0 @F9@ FAM
+1 WIFE @I14@
+1 MARR
+2 DATE BEF APR 1930
+0 @F10@ FAM
+1 HUSB @I2122@
+1 WIFE @I2123@
+1 CHIL @I18@
+1 MARR
+2 DATE 31 MAR 1847
+2 PLAC Knox County, Ohio
+0 @F11@ FAM
+1 HUSB @I136@
+1 WIFE @I26@
+1 CHIL @I137@
+1 MARR
+2 DATE 07 NOV 1925
+2 PLAC Van Wert, Van Wert County, Ohio
+0 @F12@ FAM
+1 HUSB @I136@
+1 MARR
+2 DATE 28 AUG 1954
+0 @F13@ FAM
+1 HUSB @I2052@
+1 WIFE @I2053@
+1 CHIL @I136@
+1 MARR
+2 DATE 30 DEC 1891
+2 PLAC Van Wert County, Ohio
+0 @F14@ FAM
+1 HUSB @I138@
+1 WIFE @I137@
+1 MARR
+2 DATE 20 JUL 1952
+2 PLAC First Methodist Church, Fort Wayne, Allen County, Indiana
+0 @F15@ FAM
+1 HUSB @I1957@
+1 WIFE @I1958@
+1 CHIL @I138@
+1 MARR
+2 DATE 10 MAR 1923
+2 PLAC St. Joseph, Berrien County, Michigan
+0 @F16@ FAM
+1 HUSB @I1409@
+1 WIFE @I1410@
+1 CHIL @I1351@
+1 MARR
+2 DATE MAY 1783
+2 PLAC Cumberland Valley Township, Bedford County, Pennsylvania
+0 @F17@ FAM
+1 WIFE @I1352@
+1 MARR
+0 @F18@ FAM
+1 HUSB @I1507@
+1 WIFE @I1508@
+1 CHIL @I1352@
+1 MARR
+0 @F19@ FAM
+1 HUSB @I1411@
+1 WIFE @I1412@
+1 CHIL @I1409@
+1 MARR
+0 @F20@ FAM
+1 HUSB @I3307@
+1 WIFE @I5118@
+1 CHIL @I1411@
+1 MARR
+2 DATE 18 NOV 1732
+2 PLAC Völklingen, Saarland, Germany
+0 @F21@ FAM
+1 HUSB @I1510@
+1 WIFE @I1511@
+1 CHIL @I1505@
+1 MARR
+0 @F22@ FAM
+1 HUSB @I1509@
+1 CHIL @I1508@
+0 @F23@ FAM
+1 HUSB @I1908@
+1 WIFE @I1909@
+1 CHIL @I1510@
+1 MARR
+2 DATE ABT 1767
+2 PLAC New York
+0 @F24@ FAM
+1 HUSB @I1512@
+1 MARR
+0 @F25@ FAM
+1 HUSB @I1528@
+1 WIFE @I1529@
+1 CHIL @I1512@
+1 MARR
+2 DATE ABT 1798
+0 @F26@ FAM
+1 HUSB @I1515@
+1 WIFE @I1514@
+1 CHIL @I1513@
+1 MARR
+2 DATE 24 JUN 1804
+2 PLAC Lowhill Township, Northampton County, Pennsylvania
+0 @F27@ FAM
+1 HUSB @I1518@
+1 WIFE @I1519@
+1 CHIL @I1514@
+1 MARR
+2 DATE 14 NOV 1786
+2 PLAC Northampton County, Pennsylvania
+0 @F28@ FAM
+1 HUSB @I1516@
+1 WIFE @I1517@
+1 CHIL @I1515@
+1 MARR
+0 @F29@ FAM
+1 HUSB @I1526@
+1 WIFE @I1527@
+1 CHIL @I1516@
+1 MARR
+0 @F30@ FAM
+1 HUSB @I1524@
+1 WIFE @I1525@
+1 CHIL @I1517@
+1 MARR
+0 @F31@ FAM
+1 HUSB @I1522@
+1 WIFE @I1523@
+1 CHIL @I1518@
+1 MARR
+0 @F32@ FAM
+1 HUSB @I1520@
+1 WIFE @I1521@
+1 CHIL @I1519@
+1 MARR
+2 PLAC Northampton County, Pennsylvania
+0 @F33@ FAM
+1 WIFE @I1521@
+1 MARR
+0 @F34@ FAM
+1 HUSB @I5149@
+1 WIFE @I5150@
+1 CHIL @I1527@
+1 MARR
+0 @F35@ FAM
+1 HUSB @I1531@
+1 WIFE @I1532@
+1 CHIL @I1528@
+1 MARR
+0 @F36@ FAM
+1 HUSB @I1530@
+1 CHIL @I1529@
+0 @F37@ FAM
+1 HUSB @I1535@
+1 WIFE @I1536@
+1 CHIL @I1531@
+1 MARR
+2 DATE 29 NOV 1741
+2 PLAC Ottweiler, Neunkirchen, Saarland, Germany
+0 @F38@ FAM
+1 WIFE @I1534@
+1 CHIL @I1532@
+1 MARR
+0 @F39@ FAM
+1 HUSB @I1535@
+1 MARR
+0 @F40@ FAM
+1 HUSB @I3442@
+1 WIFE @I3445@
+1 CHIL @I1535@
+1 MARR
+2 DATE 1707
+0 @F41@ FAM
+1 HUSB @I3451@
+1 WIFE @I3452@
+1 CHIL @I1536@
+1 MARR
+2 DATE 16 OCT 1708
+2 PLAC Ottweiler, Neunkirchen, Saarland, Germany
+0 @F42@ FAM
+1 HUSB @I2121@
+1 WIFE @I2058@
+1 CHIL @I1957@
+1 MARR
+0 @F43@ FAM
+1 HUSB @I2019@
+1 WIFE @I2020@
+1 CHIL @I1958@
+1 MARR
+2 DATE 12 JUL 1904
+2 PLAC St. Joseph County, Indiana
+0 @F44@ FAM
+1 HUSB @I2019@
+1 MARR
+2 DATE 25 OCT 1898
+2 PLAC St. Joseph County, Indiana
+0 @F45@ FAM
+1 HUSB @I3362@
+1 WIFE @I3363@
+1 CHIL @I2019@
+1 MARR
+2 DATE 17 SEP 1873
+2 PLAC Cassopolis, Cass County, Michigan
+0 @F46@ FAM
+1 WIFE @I2020@
+1 MARR
+2 DATE BEF 1943
+0 @F47@ FAM
+1 HUSB @I2040@
+1 WIFE @I2041@
+1 CHIL @I2020@
+1 MARR
+2 DATE 13 OCT 1874
+2 PLAC St. Joseph County, Indiana
+0 @F48@ FAM
+1 HUSB @I3072@
+1 WIFE @I3081@
+1 CHIL @I2040@
+1 MARR
+2 PLAC Stark County, Ohio
+0 @F49@ FAM
+1 HUSB @I3360@
+1 WIFE @I3756@
+1 CHIL @I2041@
+1 MARR
+2 DATE 22 DEC 1832
+2 PLAC Covert Town, Seneca County, New York
+0 @F50@ FAM
+1 HUSB @I2484@
+1 WIFE @I2485@
+1 CHIL @I2052@
+1 MARR
+2 DATE 18 MAR 1869
+2 PLAC Putnam County, Ohio
+0 @F51@ FAM
+1 WIFE @I2565@
+1 CHIL @I2053@
+1 MARR
+0 @F52@ FAM
+1 WIFE @I2058@
+1 MARR
+2 DATE 22 AUG 1903
+2 PLAC St. John's Evangelical Lutheran Church, Grand Rapids, Kent County, Michigan
+0 @F53@ FAM
+1 WIFE @I2058@
+1 MARR
+2 DATE BEF 1934
+0 @F54@ FAM
+1 HUSB @I3551@
+1 WIFE @I3552@
+1 CHIL @I2058@
+1 MARR
+0 @F55@ FAM
+1 HUSB @I3364@
+1 WIFE @I2953@
+1 CHIL @I2122@
+1 MARR
+0 @F56@ FAM
+1 HUSB @I3298@
+1 WIFE @I3292@
+1 CHIL @I2123@
+1 MARR
+2 PLAC Ireland
+0 @F57@ FAM
+1 HUSB @I2473@
+1 WIFE @I2474@
+1 CHIL @I2484@
+1 MARR
+2 DATE 01 MAR 1834
+2 PLAC Harrison County, Ohio
+0 @F58@ FAM
+1 HUSB @I2611@
+1 WIFE @I2612@
+1 CHIL @I2473@
+1 MARR
+2 PLAC Ireland
+0 @F59@ FAM
+1 HUSB @I2602@
+1 WIFE @I2764@
+1 CHIL @I2474@
+1 MARR
+2 DATE ABT 12 JAN 1795
+2 PLAC Fauquier County, Virginia
+0 @F60@ FAM
+1 WIFE @I2485@
+1 MARR
+2 DATE 03 JAN 1864
+2 PLAC Kalida, Putnam County, Ohio
+0 @F61@ FAM
+1 HUSB @I2606@
+1 WIFE @I2607@
+1 CHIL @I2485@
+1 MARR
+0 @F62@ FAM
+1 HUSB @I3211@
+1 WIFE @I3213@
+1 CHIL @I2565@
+1 MARR
+0 @F63@ FAM
+1 HUSB @I2602@
+1 MARR
+2 DATE 21 AUG 1838
+0 @F64@ FAM
+1 HUSB @I2805@
+1 WIFE @I2865@
+1 CHIL @I2602@
+1 MARR
+2 PLAC Stafford County, Virginia
+0 @F65@ FAM
+1 HUSB @I3386@
+1 WIFE @I5049@
+1 CHIL @I2606@
+1 MARR
+0 @F66@ FAM
+1 HUSB @I2700@
+1 WIFE @I2701@
+1 CHIL @I2607@
+1 MARR
+2 DATE BEF 1817
+0 @F67@ FAM
+1 HUSB @I2731@
+1 WIFE @I2732@
+1 CHIL @I2611@
+1 MARR
+0 @F68@ FAM
+1 HUSB @I5000@
+1 CHIL @I2731@
+0 @F69@ FAM
+1 WIFE @I2765@
+1 CHIL @I2764@
+1 MARR
+0 @F70@ FAM
+1 HUSB @I5110@
+1 WIFE @I5111@
+1 CHIL @I2805@
+1 MARR
+0 @F71@ FAM
+1 HUSB @I5112@
+1 WIFE @I5113@
+1 CHIL @I2865@
+1 MARR
+2 PLAC Stafford County, Virginia
+0 @F72@ FAM
+1 HUSB @I3086@
+1 WIFE @I3728@
+1 CHIL @I3072@
+1 MARR
+2 DATE BET 1807 AND 1808
+2 PLAC Franklin County, Pennsylvania
+0 @F73@ FAM
+1 HUSB @I3729@
+1 WIFE @I3730@
+1 CHIL @I3086@
+1 MARR
+2 DATE 1770
+0 @F74@ FAM
+1 HUSB @I3290@
+1 WIFE @I3291@
+1 CHIL @I3292@
+1 MARR
+0 @F75@ FAM
+1 HUSB @I3307@
+0 @F76@ FAM
+1 HUSB @I5119@
+1 WIFE @I5120@
+1 CHIL @I3307@
+1 MARR
+2 DATE BEF 1686
+2 PLAC Völklingen, Saarbrücken Stadtverband, Saarland, Germany
+0 @F77@ FAM
+1 HUSB @I3598@
+1 WIFE @I3599@
+1 CHIL @I3362@
+1 MARR
+2 DATE 09 JAN 1848
+2 PLAC Paw Paw, Van Buren County, Michigan
+0 @F78@ FAM
+1 HUSB @I3596@
+1 WIFE @I3597@
+1 CHIL @I3363@
+1 MARR
+0 @F79@ FAM
+1 HUSB @I3387@
+1 WIFE @I3388@
+1 CHIL @I3386@
+1 MARR
+0 @F80@ FAM
+1 HUSB @I5114@
+1 WIFE @I5115@
+1 CHIL @I3387@
+1 MARR
+2 PLAC Dannstadt, Pfalz, Germany
+0 @F81@ FAM
+1 HUSB @I3389@
+1 WIFE @I3390@
+1 CHIL @I3388@
+1 MARR
+0 @F82@ FAM
+1 HUSB @I3443@
+1 WIFE @I3444@
+1 CHIL @I3442@
+1 MARR
+2 DATE 30 NOV 1680
+2 PLAC Ottweiler, Neunkirchen, Saarland, Germany
+0 @F83@ FAM
+1 HUSB @I3455@
+1 WIFE @I3462@
+1 CHIL @I3445@
+1 MARR
+2 DATE 25 JAN 1664
+2 PLAC Ottweiler, Neunkirchen, Saarland, Germany
+0 @F84@ FAM
+1 HUSB @I3453@
+1 CHIL @I3452@
+0 @F85@ FAM
+1 HUSB @I3456@
+1 WIFE @I3459@
+1 CHIL @I3455@
+1 MARR
+0 @F86@ FAM
+1 HUSB @I3457@
+1 WIFE @I3458@
+1 CHIL @I3456@
+1 MARR
+2 DATE 1634
+2 PLAC Steinbach, Neunkirchen, Saarland, Germany
+0 @F87@ FAM
+1 HUSB @I3471@
+1 WIFE @I3472@
+1 CHIL @I3462@
+1 MARR
+0 @F88@ FAM
+1 HUSB @I3637@
+1 WIFE @I3638@
+1 CHIL @I3596@
+1 MARR
+0 @F89@ FAM
+1 HUSB @I3674@
+1 WIFE @I3675@
+1 CHIL @I3597@
+1 MARR
+0 @F90@ FAM
+1 HUSB @I3598@
+1 MARR
+2 DATE 29 MAY 1853
+2 PLAC Silver Creek Township, Cass County, Michigan
+0 @F91@ FAM
+1 WIFE @I3601@
+1 CHIL @I3599@
+1 MARR
+2 DATE 07 FEB 1805
+2 PLAC Butler County, Ohio
+0 @F92@ FAM
+1 HUSB @I3636@
+1 WIFE @I5109@
+1 CHIL @I3601@
+1 MARR
+0 @F93@ FAM
+1 HUSB @I3743@
+1 WIFE @I3744@
+1 CHIL @I3728@
+1 MARR
+0 @F94@ FAM
+1 HUSB @I3745@
+1 CHIL @I3744@
+0 @F95@ FAM
+1 HUSB @I3778@
+1 WIFE @I3779@
+1 CHIL @I3756@
+1 MARR
+2 DATE 04 AUG 1799
+0 @F96@ FAM
+1 HUSB @I3778@
+1 MARR
+2 DATE 18 JUN 1817
+0 @F97@ FAM
+1 HUSB @I3778@
+1 MARR
+0 @F98@ FAM
+1 HUSB @I3867@
+1 WIFE @I3883@
+1 CHIL @I3778@
+1 MARR
+2 DATE ABT 05 JUN 1762
+0 @F99@ FAM
+1 HUSB @I3914@
+1 WIFE @I3915@
+1 CHIL @I3779@
+1 MARR
+2 DATE 04 AUG 1755
+2 PLAC Fort Monmouth, Monmouth County, New Jersey
+0 @F100@ FAM
+1 HUSB @I3886@
+1 WIFE @I3887@
+1 CHIL @I3867@
+1 MARR
+0 @F101@ FAM
+1 HUSB @I3898@
+1 WIFE @I3900@
+1 CHIL @I3886@
+1 MARR
+2 DATE BEF 1698
+0 @F102@ FAM
+1 HUSB @I3888@
+1 WIFE @I3889@
+1 CHIL @I3887@
+1 MARR
+0 @F103@ FAM
+1 HUSB @I3905@
+1 WIFE @I3906@
+1 CHIL @I3898@
+1 MARR
+2 DATE BET 1656 AND 1666
+0 @F104@ FAM
+1 HUSB @I3908@
+1 WIFE @I4057@
+1 CHIL @I3905@
+1 MARR
+0 @F105@ FAM
+1 HUSB @I3907@
+1 CHIL @I3906@
+0 @F106@ FAM
+1 HUSB @I4058@
+1 WIFE @I4059@
+1 CHIL @I3908@
+1 MARR
+0 @F107@ FAM
+1 HUSB @I4037@
+1 WIFE @I4038@
+1 CHIL @I3914@
+1 MARR
+2 DATE ABT 1730
+0 @F108@ FAM
+1 HUSB @I4051@
+1 WIFE @I4052@
+1 CHIL @I3915@
+1 MARR
+0 @F109@ FAM
+1 HUSB @I4039@
+1 WIFE @I4040@
+1 CHIL @I4037@
+1 MARR
+2 DATE BEF 1695
+0 @F110@ FAM
+1 HUSB @I4049@
+1 WIFE @I4050@
+1 CHIL @I4038@
+1 MARR
+2 DATE BEF 1709
+0 @F111@ FAM
+1 HUSB @I4041@
+1 WIFE @I4042@
+1 CHIL @I4039@
+1 MARR
+2 DATE ABT 1675
+2 PLAC New York
+0 @F112@ FAM
+1 HUSB @I4043@
+1 WIFE @I4044@
+1 CHIL @I4041@
+1 MARR
+2 DATE BEF 1656
+2 PLAC New York
+0 @F113@ FAM
+1 WIFE @I4042@
+1 MARR
+2 DATE 05 JAN 1679
+2 PLAC Rye, Westchester County, New York
+0 @F114@ FAM
+1 HUSB @I4045@
+1 WIFE @I4046@
+1 CHIL @I4043@
+1 MARR
+2 DATE BEF 1636
+0 @F115@ FAM
+1 WIFE @I4046@
+1 MARR
+2 DATE AFT 1636
+0 @F116@ FAM
+1 HUSB @I4053@
+1 WIFE @I4054@
+1 CHIL @I4051@
+1 MARR
+2 DATE 09 APR 1703
+2 PLAC New York City, New York County, New York
+0 @F117@ FAM
+1 WIFE @I4056@
+1 CHIL @I4053@
+1 MARR
+0 @F118@ FAM
+1 HUSB @I4065@
+1 WIFE @I4066@
+1 CHIL @I4054@
+1 MARR
+2 DATE 12 DEC 1670
+2 PLAC Middletown, Monmouth County, New Jersey
+0 @F119@ FAM
+1 HUSB @I4064@
+1 CHIL @I4056@
+0 @F120@ FAM
+1 HUSB @I4060@
+1 WIFE @I4061@
+1 CHIL @I4058@
+1 MARR
+0 @F121@ FAM
+1 HUSB @I4062@
+1 WIFE @I4063@
+1 CHIL @I4060@
+1 MARR
+0 @F122@ FAM
+1 HUSB @I4067@
+1 WIFE @I4068@
+1 CHIL @I4065@
+1 MARR
+2 DATE ABT 1630
+2 PLAC England
+0 @F123@ FAM
+1 HUSB @I4072@
+1 WIFE @I4073@
+1 CHIL @I4066@
+1 MARR
+2 DATE 1644/45
+2 PLAC Gravesend, Kings County, New York
+0 @F124@ FAM
+1 HUSB @I4069@
+1 WIFE @I4070@
+1 CHIL @I4067@
+1 MARR
+2 DATE 07 DEC 1591
+0 @F125@ FAM
+1 HUSB @I4071@
+1 CHIL @I4068@
+0 @F126@ FAM
+1 HUSB @I4074@
+1 WIFE @I4075@
+1 CHIL @I4072@
+1 MARR
+2 DATE 13 NOV 1609
+2 PLAC Burton Joyce, Nottinghamshire, England
+0 @F127@ FAM
+1 HUSB @I4079@
+1 CHIL @I4073@
+0 @F128@ FAM
+1 HUSB @I4076@
+1 WIFE @I4077@
+1 CHIL @I4074@
+1 MARR
+0 @F129@ FAM
+1 HUSB @I4078@
+1 CHIL @I4075@
+0 @F130@ FAM
+1 HUSB @I5116@
+1 WIFE @I5117@
+1 CHIL @I5049@
+1 MARR
+0 @F131@ FAM
+1 WIFE @I5069@
+1 MARR
+2 PLAC Perry County, Ohio
+0 @F132@ FAM
+1 HUSB @I5087@
+1 WIFE @I5088@
+1 CHIL @I5069@
+1 MARR
+0 @F133@ FAM
+1 WIFE @I5078@
+1 MARR
+0 @F134@ FAM
+1 HUSB @I5081@
+1 WIFE @I5082@
+1 CHIL @I5078@
+1 MARR
+0 @F135@ FAM
+1 WIFE @I5080@
+1 MARR
+0 @F136@ FAM
+1 HUSB @I5083@
+1 WIFE @I5084@
+1 CHIL @I5081@
+1 MARR
+0 @F137@ FAM
+1 WIFE @I5086@
+1 CHIL @I5082@
+1 MARR
+0 @F138@ FAM
+1 WIFE @I5106@
+1 MARR
+2 PLAC Lebanon County, Pennsylvania
+0 @F139@ FAM
+1 HUSB @I5107@
+1 WIFE @I5108@
+1 MARR
+2 PLAC Tulpehocken, Berks County, Pennsylvania
+0 @F140@ FAM
+1 HUSB @I5125@
+1 WIFE @I5126@
+1 CHIL @I5118@
+1 MARR
+0 @F141@ FAM
+1 HUSB @I5121@
+1 WIFE @I5122@
+1 CHIL @I5120@
+1 MARR
+0 @F142@ FAM
+1 HUSB @I5123@
+1 CHIL @I5122@
+0 @F143@ FAM
+1 HUSB @I5124@
+1 CHIL @I5123@
+0 @F144@ FAM
+1 HUSB @I5127@
+1 WIFE @I5128@
+1 CHIL @I5125@
+1 MARR
+0 @F145@ FAM
+1 HUSB @I5129@
+1 WIFE @I5130@
+1 CHIL @I5127@
+1 MARR
+2 DATE ABT 1629
+0 @F146@ FAM
+1 HUSB @I5138@
+1 WIFE @I5139@
+1 CHIL @I5128@
+1 MARR
+0 @F147@ FAM
+1 HUSB @I5131@
+1 WIFE @I5132@
+1 CHIL @I5129@
+1 MARR
+0 @F148@ FAM
+1 HUSB @I5133@
+1 WIFE @I5134@
+1 CHIL @I5131@
+1 MARR
+0 @F149@ FAM
+1 HUSB @I5136@
+1 WIFE @I5137@
+1 CHIL @I5132@
+1 MARR
+0 @F150@ FAM
+1 HUSB @I5135@
+1 CHIL @I5133@
+0 @F151@ FAM
+1 HUSB @I5140@
+1 WIFE @I5141@
+1 CHIL @I5138@
+1 MARR
+0 @F152@ FAM
+1 HUSB @I5142@
+1 WIFE @I5143@
+1 CHIL @I5140@
+1 MARR
+0 @F153@ FAM
+1 HUSB @I5147@
+1 WIFE @I5148@
+1 CHIL @I5141@
+1 MARR
+0 @F154@ FAM
+1 HUSB @I5144@
+1 WIFE @I5145@
+1 CHIL @I5142@
+1 MARR
+0 @F155@ FAM
+1 HUSB @I5146@
+1 CHIL @I5145@
+0 TRLR

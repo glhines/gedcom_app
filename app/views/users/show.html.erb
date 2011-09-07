@@ -19,8 +19,11 @@
       <strong>Microposts</strong> <%= @user.microposts.count %>
       <%= render 'shared/stats' %>
       <% unless @gedcom.nil? %>
-        <strong>Analyze GEDCOM:</strong>  
-        <%=  link_to @gedcom.gedcom_file_name, @gedcom %>
+        <%= link_to "Analyze GEDCOM", @gedcom %><br /><br />
+        <%= link_to "Delete GEDCOM", @gedcom,
+                            :method => "delete",
+                            :confirm => "You sure?",
+                            :title => "Delete #{@gedcom.gedcom_file_name}" %>
       <% end %>
     </td>
   </tr>

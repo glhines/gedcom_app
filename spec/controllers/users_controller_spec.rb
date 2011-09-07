@@ -58,7 +58,7 @@ describe UsersController do
   describe "GET 'show'" do
 
     before(:each) do
-      @user = Factory(:user)
+      @user = test_sign_in(Factory(:user))
     end
 
     it "should be successful" do
@@ -86,11 +86,10 @@ describe UsersController do
       response.should have_selector("h1>img", :class => "gravatar")
     end
 
-    it "should have a GEDCOM section" do
+    it "should prompt to upload a GEDCOM file" do
       get :show, :id => @user
-      response.should have_selector("td", :content => "GEDCOM file:")
-      response.should have_selector("td", :content => "GEDCOM size:")
-      response.should have_selector("td", :content => "GEDCOM uploaded:")
+      response.should have_selector("a", 
+                                    :content => "Click here to upload GEDCOM!")
     end
 
     it "should show the user's microposts" do
@@ -182,7 +181,7 @@ describe UsersController do
 
       it "should have a welcome message" do
         post :create, :user => @attr
-        flash[:success].should =~ /welcome to the sample app/i
+        flash[:success].should =~ /welcome to Uncle Lloyd/i
       end
 
       it "should sign the user in" do
@@ -210,11 +209,7 @@ describe UsersController do
       get :edit, :id => @user
       response.should have_selector("title", :content => "Edit user")
     end
-
-    it "should have a field to change the GEDCOM file" do
-      get :edit, :id => @user
-      response.should have_selector("div", :class => "file_field")
-    end
+    
   end
 
   describe "PUT 'update'" do

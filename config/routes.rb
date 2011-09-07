@@ -62,6 +62,11 @@ GedcomApp::Application.routes.draw do
       get :following, :followers
     end
   end
+  resources :gedcoms do
+    member do
+      get :birthplaces
+    end
+  end
   resources :users
   resources :sessions,      :only => [:new, :create, :destroy]
   resources :microposts,    :only => [:create, :destroy]
