@@ -18,21 +18,18 @@ describe GedcomsController do
 
   describe "POST 'create'" do
 
-    before(:each) do
-      @user = Factory(:user)
-      @user = test_sign_in(@user)
-    end
-
-    after(:each) do
-      @user.destroy
-    end
-
     describe "failure" do
 
       before(:each) do
+        @user = Factory(:user)
+        @user = test_sign_in(@user)
         @attr = { :gedcom => nil }
       end
 
+      after(:each) do
+        @user.destroy
+      end
+      
       it "should not create a GEDCOM" do
         lambda do
           post :create, :gedcom => @attr
@@ -48,31 +45,61 @@ describe GedcomsController do
     describe "success" do
 
       before(:each) do
-        @gedcom = Gedcom.new
-        @gedcom.gedcom = File.new(Rails.root.join('spec/fixtures/gedcoms/GARYSANCESTORS.GED'))
-        @attr = { :gedcom => @gedcom.gedcom }
+        @user = Factory(:user)
+        @user = test_sign_in(@user)
       end
 
-      #after(:each) do
-      #  current_user.gedcom.destroy
-      #end
+      after(:each) do
+        @user.destroy
+      end
 
       it "should create a gedcom" do
         lambda do
-          post :create, @attr
+          # post :create, @attr
+          @user.create_gedcom!(:gedcom =>
+            Rails.root.join("spec/fixtures/gedcoms/GARYSANCESTORS.GED").open)
         end.should change(Gedcom, :count).by(1)
       end
 
-      it "should redirect to the home page" do
-        post :create, @attr
-        response.should redirect_to(root_path)
-      end
-
-      it "should have a flash message" do
-        post :create, @attr
-        flash[:success].should =~ /gedcom uploaded/i
-      end
     end
   end
 
+  describe "DELETE 'destroy'" do
+
+    describe "for an unauthorized user" do
+
+      before(:each) do
+        @user = Factory(:user)
+        wrong_user = Factory(:user, :email => Factory.next(:email))
+        test_sign_in(wrong_user)
+        @user.create_gedcom!(:gedcom =>
+          Rails.root.join("spec/fixtures/gedcoms/GARYSANCESTORS.GED").open)
+      end
+
+      it "should deny access" do
+        delete :destroy, :id => @user.gedcom
+        response.should redirect_to(root_path)
+      end
+    end
+
+    describe "for an authorized user" do
+
+      before(:each) do
+        @user = test_sign_in(Factory(:user))
+        @user.create_gedcom!(:gedcom =>
+          Rails.root.join("spec/fixtures/gedcoms/GARYSANCESTORS.GED").open)
+      end
+
+      after(:each) do
+        @user.destroy
+      end
+
+      it "should destroy the gedcom" do
+        lambda do 
+          delete :destroy, :id => @user.gedcom
+        end.should change(Gedcom, :count).by(-1)
+      end
+    end
+  end
+  
 end

@@ -271,4 +271,7 @@ table.gedcom_preview tr td {
   padding: 0px;
 }
 
+td.numeric {
+  text-align: right;
+}
 

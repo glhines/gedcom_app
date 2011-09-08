@@ -41,6 +41,8 @@ class GedcomsController < ApplicationController
     parser = GedcomsHelper::GedcomFile.new( @gedcom.gedcom )
     parser.parse_gedcom
     @birthplaces = parser.report_birthplaces
+    @sum = 0
+    @birthplaces.each { |key, value| @sum += value }
     render 'show_birthplaces'
   end
 
