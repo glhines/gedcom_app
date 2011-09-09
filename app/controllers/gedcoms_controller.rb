@@ -40,6 +40,7 @@ class GedcomsController < ApplicationController
     @gedcom = Gedcom.find(params[:id])
     parser = GedcomsHelper::GedcomFile.new( @gedcom.gedcom )
     parser.parse_gedcom
+    @transcoder = parser.transcoder
     @birthplaces = parser.report_birthplaces
     @sum = 0
     @birthplaces.each { |key, value| @sum += value }

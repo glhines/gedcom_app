@@ -8,22 +8,21 @@
   </tr>
   <tr>
     <% unless @birthplaces.empty? %>
-      <% @latin1_to_utf8 = Iconv.new("UTF-8//TRANSLIT//IGNORE", "LATIN1") %>
-         <table>
+       <table>
+         <tr>
+           <td><strong>Birthplace</strong></td>
+           <td class="numeric"><strong>Count</strong></td>
+           <td class="numeric"><strong>Percentage</strong></td>
+         </tr>
+         <% @birthplaces.each do |key, value| %>
            <tr>
-             <td><strong>Birthplace</strong></td>
-             <td class="numeric"><strong>Count</strong></td>
-             <td class="numeric"><strong>Percentage</strong></td>
+             <td><%= @transcoder.iconv(key.join(', ')) %></td>
+             <td class="numeric"><%= value %></td>
+             <td class="numeric">
+               <%= number_to_percentage(value / @sum.to_f) %></td>
            </tr>
-          <% @birthplaces.each do |key, value| %>
-            <tr>
-              <td><%= @latin1_to_utf8.iconv(key.join(', ')) %></td>
-              <td class="numeric"><%= value %></td>
-              <td class="numeric">
-                <%= number_to_percentage(value / @sum.to_f) %></td>
-            </tr>
-          <% end %>
-        </table>
+         <% end %>
+      </table>
     <% end %>
   </tr>
 </table>

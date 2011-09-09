@@ -16,6 +16,11 @@ module GedcomsHelper
     end
 
     def parse_gedcom
+      @tokens = []
+      until @tokens[1] == 'CHAR' do
+        @tokens = @ged.gets.split
+      end
+      parse_encoding
       until @token == 'INDI' do
         tokenize
       end
@@ -25,14 +30,25 @@ module GedcomsHelper
     end
 
     def report_birthplaces
-#      @birthplaces.sort.each do |key, value|
-#        print key; print " = "; puts value
-#      end
       return @birthplaces.sort
+    end
+
+    def transcoder
+      return @transcoder
     end
 
     private
 
+      def parse_encoding
+        encoding = @tokens.last
+        case encoding 
+        when 'ANSEL', 'ANSI'
+          @transcoder = Iconv.new("UTF-8//TRANSLIT//IGNORE", "LATIN1")
+        else
+          @transcoder = Iconv.new("UTF-8//TRANSLIT//IGNORE", "ASCII")
+        end
+      end
+    
       def tokenize
         tokens = [ ]
         tokens = @ged.gets.split
@@ -73,7 +89,3 @@ module GedcomsHelper
   end
   
 end
-
-#parser = GedcomsHelper::GedcomFile.new( *ARGV )
-#parser.parse_gedcom
-#parser.report_birthplaces
