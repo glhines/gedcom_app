@@ -19,9 +19,14 @@
              <td><%= @transcoder.iconv(key.join(', ')) %></td>
              <td class="numeric"><%= value %></td>
              <td class="numeric">
-               <%= number_to_percentage(value / @sum.to_f) %></td>
+               <%= number_to_percentage((value / @sum.to_f)*100) %></td>
            </tr>
          <% end %>
+         <tr>
+           <td><strong>Total</strong></td>
+           <td class="numeric"><strong><%= @sum %></strong></td>
+           <td class="numeric"><strong>100.000%</strong></td>
+         </tr>
       </table>
     <% end %>
   </tr>
