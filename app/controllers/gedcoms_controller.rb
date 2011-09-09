@@ -10,7 +10,7 @@ class GedcomsController < ApplicationController
 
   def create
     begin
-      @gedcom = current_user.build_gedcom!(params[:gedcom])
+      @gedcom = current_user.build_gedcom(params[:gedcom])
       if @gedcom.save
         flash[:success] = "GEDCOM uploaded!"
         redirect_to root_path
@@ -18,7 +18,7 @@ class GedcomsController < ApplicationController
         render 'new'
       end
     rescue
-      flash[:error] = "Error uploading GEDCOM!"
+      flash[:error] = "Error uploading GEDCOM: #{$!}"
       @gedcom = Gedcom.new
       render 'new'
     end
