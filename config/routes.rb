@@ -64,7 +64,7 @@ GedcomApp::Application.routes.draw do
   end
   resources :gedcoms do
     member do
-      get :birthplaces
+      get :birthplaces, :rollup
     end
   end
   resources :users

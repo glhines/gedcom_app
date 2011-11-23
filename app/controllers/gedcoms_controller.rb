@@ -25,7 +25,9 @@ class GedcomsController < ApplicationController
   end
     
   def show
-    @gedcom = Gedcom.find(params[:id])
+    # For added security, we allow the user to only see his own gedcom
+    #@gedcom = Gedcom.find(params[:id])
+    @gedcom = current_user.gedcom
     @title = @gedcom.gedcom_file_name
   end
 
@@ -36,15 +38,11 @@ class GedcomsController < ApplicationController
   end
 
   def birthplaces
-    @title = "Birthplaces"
-    @gedcom = Gedcom.find(params[:id])
-    parser = GedcomsHelper::GedcomFile.new( @gedcom.gedcom )
-    parser.parse_gedcom
-    @transcoder = parser.transcoder
-    @birthplaces = parser.report_birthplaces
-    @sum = 0
-    @birthplaces.each { |key, value| @sum += value }
-    render 'show_birthplaces'
+    birthplaces_report(true) 
+  end
+
+  def rollup 
+    birthplaces_report(false) 
   end
 
   private
@@ -53,4 +51,24 @@ class GedcomsController < ApplicationController
       @gedcom = Gedcom.find(params[:id])
       redirect_to root_path if @gedcom.nil? || !current_user?(@gedcom.user)
     end
+
+    def birthplaces_report detail
+      @title = "Birthplaces"
+      # For added security, we allow the user to only see his own gedcom
+      #@gedcom = Gedcom.find(params[:id])
+      @gedcom = current_user.gedcom
+      parser = GedcomsHelper::GedcomFile.new( @gedcom.gedcom )
+      parser.parse_gedcom
+      @transcoder = parser.transcoder
+      @detail = detail
+      if detail then
+        @birthplaces = parser.report_birthplaces
+      else
+        @birthplaces = parser.report_birthplaces_rollup
+      end    
+      @sum = 0
+      @birthplaces.each { |key, value| @sum += value }
+      render 'show_birthplaces'
+    end
+  
 end

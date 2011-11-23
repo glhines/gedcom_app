@@ -30,4 +30,13 @@
       </table>
     <% end %>
   </tr>
+  <tr>
+    <td>
+    <% if !@detail %>
+      <%= link_to "Birthplaces Report", birthplaces_gedcom_path(@gedcom) %>
+    <% else %>
+      <%= link_to "Birthplaces Rollup Report", rollup_gedcom_path(@gedcom) %>
+    <% end %>
+    </td>
+  </tr>
 </table>

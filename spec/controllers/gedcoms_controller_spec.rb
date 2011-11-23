@@ -18,30 +18,6 @@ describe GedcomsController do
 
   describe "POST 'create'" do
 
-    describe "failure" do
-
-      before(:each) do
-        @user = Factory(:user)
-        @user = test_sign_in(@user)
-        @attr = { :gedcom => nil }
-      end
-
-      after(:each) do
-        @user.destroy
-      end
-      
-      it "should not create a GEDCOM" do
-        lambda do
-          post :create, :gedcom => @attr
-        end.should_not change(Gedcom, :count)
-      end
-
-      it "should render the home page" do
-        post :create, :gedcom => @attr
-        response.should render_template('new')
-      end
-    end
-
     describe "success" do
 
       before(:each) do
@@ -59,6 +35,7 @@ describe GedcomsController do
           @user.create_gedcom!(:gedcom =>
             Rails.root.join("spec/fixtures/gedcoms/GARYSANCESTORS.GED").open)
         end.should change(Gedcom, :count).by(1)
+
       end
 
     end
@@ -101,5 +78,104 @@ describe GedcomsController do
       end
     end
   end
-  
+
+  describe "SHOW" do
+
+    before(:each) do
+      @user = Factory(:user)
+      @user = test_sign_in(@user)
+      @user.create_gedcom!(:gedcom =>
+        Rails.root.join("spec/fixtures/gedcoms/GARYSANCESTORS.GED").open)
+    end
+
+    after(:each) do
+      @user.destroy
+    end
+
+    it "should display the gedcom" do
+      get :show, :id => @user.gedcom
+      response.should be_success
+    end
+
+    it "should have the right title" do
+      get :show, :id => @user.gedcom
+      response.should have_selector("title", 
+                                    :content => @user.gedcom.gedcom_file_name)
+    end
+ 
+    it "should provide a Birthplaces Report link" do
+      get :show, :id => @user.gedcom
+      response.should have_selector("a", 
+                               :href => birthplaces_gedcom_path(@user.gedcom),
+                               :content => "Birthplaces Report")
+    end
+ 
+    it "should provide link to delete the gedcom" do
+      get :show, :id => @user.gedcom
+      response.should have_selector("a", 
+                               :href => gedcom_path(@user.gedcom),
+                               :content => "Delete GEDCOM")
+    end
+  end
+
+  describe "SHOW Birthplaces Report" do
+
+    before(:each) do
+      @user = Factory(:user)
+      @user = test_sign_in(@user)
+      @user.create_gedcom!(:gedcom =>
+        Rails.root.join("spec/fixtures/gedcoms/GARYSANCESTORS.GED").open)
+    end
+
+    after(:each) do
+      @user.destroy
+    end
+
+    it "should display the birthplaces report" do
+      get :birthplaces, :id => @user.gedcom
+      response.should be_success
+    end
+
+    it "should have the right title" do
+      get :birthplaces, :id => @user.gedcom
+      response.should have_selector("title", 
+                                    :content => "Birthplaces")
+    end
+ 
+    it "should provide a rollup report link" do
+      get :birthplaces, :id => @user.gedcom
+      response.should have_selector("a", 
+                               :href => rollup_gedcom_path(@user.gedcom),
+                               :content => "Birthplaces Rollup Report")
+    end
+ 
+  end
+
+  describe "SHOW Birthplaces Rollup Report" do
+
+    before(:each) do
+      @user = Factory(:user)
+      @user = test_sign_in(@user)
+      @user.create_gedcom!(:gedcom =>
+        Rails.root.join("spec/fixtures/gedcoms/GARYSANCESTORS.GED").open)
+    end
+
+    after(:each) do
+      @user.destroy
+    end
+
+    it "should display the birthplaces rollup report" do
+      get :rollup, :id => @user.gedcom
+      response.should be_success
+    end
+
+    it "should provide a full birthplaces report link" do
+      get :rollup, :id => @user.gedcom
+      response.should have_selector("a", 
+                               :href => birthplaces_gedcom_path(@user.gedcom),
+                               :content => "Birthplaces Report")
+    end
+ 
+  end
+
 end

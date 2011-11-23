@@ -6,6 +6,7 @@
           <% GedcomsHelper::GedcomFile.new(@gedcom.gedcom).head(10).each do |s| %>
             <tr><td><%= s %></td></tr>
           <% end %>
+          <tr><td><strong>.&nbsp;.&nbsp;.</strong></td></tr>
         <% rescue %>
           <% error_msg = "Could not display GEDCOM - try uploading it again" %>
           <% flash.now[:error] = error_msg %>

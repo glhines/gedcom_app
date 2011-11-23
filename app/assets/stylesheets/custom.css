@@ -3,8 +3,8 @@
 }
 
 body {
-  background: #cff;
-}
+  background: #8cf;
+} 
 
 header {
   padding-top: 20px;
@@ -198,8 +198,8 @@ ul.users {
 }
 
 h1.micropost {
-  margin-bottom: 0.3em;
-}
+  margin-bottom: 0.2em;
+} 
 
 table.microposts {
   margin-top: 1em;

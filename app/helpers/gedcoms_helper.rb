@@ -7,6 +7,7 @@ module GedcomsHelper
       @ged = gedcom.to_file
       @token = ''
       @birthplaces = { }
+      @birthplaces_rollup = { }
     end
 
     def head(lines = 10)
@@ -31,6 +32,10 @@ module GedcomsHelper
 
     def report_birthplaces
       return @birthplaces.sort
+    end
+
+    def report_birthplaces_rollup
+      return @birthplaces_rollup.sort
     end
 
     def transcoder
@@ -69,6 +74,7 @@ module GedcomsHelper
 
       def parse_birth
         tokens = [ ]
+        rollup = [ ]
         tokens = @ged.gets.split(' ',3)
         @token = tokens.last
         while tokens.first > '1' do
@@ -79,6 +85,12 @@ module GedcomsHelper
               @birthplaces[p] += 1
             else
               @birthplaces[p] = 1
+            end
+            rollup[0] = p.first
+            if @birthplaces_rollup.has_key?(rollup) then
+              @birthplaces_rollup[rollup] += 1
+            else
+              @birthplaces_rollup[rollup] = 1
             end
           end
           tokens = @ged.gets.split(' ',3)
