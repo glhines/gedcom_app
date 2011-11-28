@@ -1,3 +1,4 @@
+require 'iconv'
 module GedcomsHelper
   
   class GedcomFile
