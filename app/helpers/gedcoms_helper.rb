@@ -7,8 +7,14 @@ module GedcomsHelper
       raise ArgumentError unless gedcom.exists?
       @ged = gedcom.to_file
       @token = ''
+      @id = ''
       @birthplaces = { }
       @birthplaces_rollup = { }
+      @persons = { }
+      @families = { }
+      @names = { }
+      @births = { }
+      @parents = { }
     end
 
     def head(lines = 10)
@@ -27,7 +33,7 @@ module GedcomsHelper
         tokenize
       end
       while @token == 'INDI' do
-        parse_individual
+        parse_individual(@id)
       end
     end
 
@@ -37,6 +43,9 @@ module GedcomsHelper
 
     def report_birthplaces_rollup
       return @birthplaces_rollup.sort
+    end
+
+    def report_names
     end
 
     def transcoder
@@ -59,21 +68,29 @@ module GedcomsHelper
         tokens = [ ]
         tokens = @ged.gets.split
         @token = tokens.last
+        @id = tokens[1]
         tokens
       end
     
-      def parse_individual
+      def parse_individual(id)
         tokens = [ ]
         tokens = tokenize
         while tokens.first > '0' do
+          if tokens[1] == 'NAME' then
+            name = tokens[2..tokens.length-1]
+            @names[id => name]
+          end 
           if tokens[1] == 'BIRT' then 
-            parse_birth
+            parse_birth(id)
           end
+          if tokens[1] == 'FAMC' then
+            @parents[id => tokens.last]
+          end 
           tokens = tokenize
         end
       end
 
-      def parse_birth
+      def parse_birth(id)
         tokens = [ ]
         rollup = [ ]
         tokens = @ged.gets.split(' ',3)
@@ -93,6 +110,7 @@ module GedcomsHelper
             else
               @birthplaces_rollup[rollup] = 1
             end
+            @births[id] = p
           end
           tokens = @ged.gets.split(' ',3)
           @token = tokens.last
