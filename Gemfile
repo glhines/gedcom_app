@@ -8,8 +8,9 @@ gem 'rails', '3.2.11'
 
 gem 'gravatar_image_tag', '1.0.0.pre2'
 gem 'will_paginate', '3.0.4'
-gem "paperclip", "~> 2.3"
-gem 'aws-s3'
+gem 'paperclip', '3.4.0'
+#gem 'aws-s3'
+gem 'aws-sdk'
 
 # Gems used only for assets and not required
 # in production environments by default.
