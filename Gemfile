@@ -7,7 +7,7 @@ gem 'rails', '3.2.11'
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 gem 'gravatar_image_tag', '1.0.0.pre2'
-gem 'will_paginate', '3.0.pre4'
+gem 'will_paginate', '3.0.4'
 gem "paperclip", "~> 2.3"
 gem 'aws-s3'
 
