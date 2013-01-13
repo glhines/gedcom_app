@@ -5,7 +5,8 @@ module GedcomsHelper
 
     def initialize gedcom
       raise ArgumentError unless gedcom.exists?
-      @ged = gedcom.to_file
+#      @ged = gedcom.to_file <-- It used to be so simple!
+      @ged = File.open(Paperclip.io_adapters.for(gedcom).path, 'r:iso-8859-1')
       @token = ''
       @id = ''
       @birthplaces = { }

@@ -33,14 +33,14 @@ gem 'jquery-rails'
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
 group :development do
-  gem 'sqlite3', '1.3.4'
+  gem 'sqlite3', '1.3.7'
   gem 'rspec-rails', '2.6.1'
   gem 'annotate', '2.4.0'
   gem 'faker', '0.3.1'
 end
 
 group :test do
-  gem 'sqlite3', '1.3.4'
+  gem 'sqlite3', '1.3.7'
   gem 'rspec-rails', '2.6.1'
   gem 'webrat', '0.7.1'
 #  gem 'factory_girl_rails', '1.0'
