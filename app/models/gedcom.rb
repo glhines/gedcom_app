@@ -25,7 +25,8 @@ class Gedcom < ActiveRecord::Base
     :processors => [:gedcom_parser],
     :storage => :s3,
     :s3_credentials => "#{Rails.root}/config/s3.yml",
-    :path => "/:style/:id/:filename"
+    :path => "/:style/:id/:filename",
+    :url => ":s3_path_url"
 
   # Paperclip callback 
   before_post_process :cancel_post_processing
