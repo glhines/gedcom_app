@@ -1,27 +1,29 @@
 source 'http://rubygems.org'
 
-#gem 'rails', '3.1.0.rc8'
-gem 'rails', '3.2.11'
+#gem 'rails', '3.2.11'
+gem 'rails', '6.0.3.3'
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
-gem 'gravatar_image_tag', '1.0.0.pre2'
-gem 'will_paginate', '3.0.4'
-gem 'paperclip', '3.4.0'
+gem 'tzinfo-data', '1.2020.3'
+gem 'gravatar_image_tag', '1.2.0'
+gem 'will_paginate', '3.3.0'
+
+gem 'paperclip', '6.1.0'
 #gem 'aws-s3'
-gem 'aws-sdk'
+gem 'aws-sdk', '3.0.1'
 
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
   #gem 'sass-rails', "~> 3.1.0.rc"
-  gem 'coffee-rails', '3.2.2'
+  gem 'coffee-rails', '5.0.0'
   #gem 'coffee-script'
-  gem 'uglifier'
+  gem 'uglifier', '4.2.0'
 end
 
-gem 'jquery-rails'
+gem 'jquery-rails', '4.4.0'
 
 # Use unicorn as the web server
 # gem 'unicorn'
@@ -33,27 +35,29 @@ gem 'jquery-rails'
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
 group :development do
-  gem 'sqlite3', '1.3.7'
-  gem 'rspec-rails', '2.6.1'
   gem 'annotate', '2.4.0'
   gem 'faker', '0.3.1'
 end
 
+group :development, :test do
+  gem 'sqlite3', '1.4.2'
+  gem 'rspec-rails', '~> 4.0.1'
+  # gem 'capybara', '3.33.0'
+  gem 'factory_bot_rails', '6.1.0'
+  gem 'rails-controller-testing', '1.0.5'
+end
+
 group :test do
-  gem 'sqlite3', '1.3.7'
-  gem 'rspec-rails', '2.6.1'
   gem 'webrat', '0.7.1'
-#  gem 'factory_girl_rails', '1.0'
-  gem 'factory_girl_rails', '4.1.0'
   
   # Pretty printed test output
   gem 'turn', :require => false
 
-  gem 'autotest', '4.4.6'
-  gem 'autotest-rails-pure', '4.1.2'
-  gem 'autotest-standalone', '4.5.5'
-  gem 'autotest-growl', '0.2.9'
-  gem 'spork', '0.9.0.rc9'
+  # gem 'autotest', '4.4.6'
+  # gem 'autotest-rails-pure', '4.1.2'
+  # gem 'autotest-standalone', '4.5.5'
+  # gem 'autotest-growl', '0.2.9'
+  # gem 'spork', '0.9.0.rc9'
 end
 
 group :production do
