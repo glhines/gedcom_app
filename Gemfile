@@ -34,6 +34,9 @@ gem 'jquery-rails', '4.4.0'
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
+# Bundle the extra gems:
+gem 'nokogiri', '~> 1.11', '>= 1.11.1'
+
 group :development do
   gem 'annotate', '2.4.0'
   gem 'faker', '0.3.1'
