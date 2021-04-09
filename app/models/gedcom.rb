@@ -16,8 +16,8 @@ class Gedcom < ActiveRecord::Base
 
   belongs_to :user
 
-  attr_accessible  :gedcom, :gedcom_file_name, :gedcom_content_type, 
-    :gedcom_file_size, :gedcom_updated_at
+  # attr_accessible  :gedcom, :gedcom_file_name, :gedcom_content_type,
+  #   :gedcom_file_size, :gedcom_updated_at
 
   # Paperclip config 
   has_attached_file :gedcom, 

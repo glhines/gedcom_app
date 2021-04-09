@@ -1,21 +1,10 @@
-# == Schema Information
-#
-# Table name: relationships
-#
-#  id          :integer         not null, primary key
-#  follower_id :integer
-#  followed_id :integer
-#  created_at  :datetime
-#  updated_at  :datetime
-#
-
-require 'spec_helper'
+require 'rails_helper'
 
 describe Relationship do
 
   before(:each) do
-    @follower = Factory(:user)
-    @followed = Factory(:user, :email => Factory.next(:email))
+    @follower = FactoryBot.create(:user)
+    @followed = FactoryBot.create(:user, :email => FactoryBot.generate(:email))
     
     @relationship = @follower.relationships.build(:followed_id => @followed.id)
   end
@@ -31,19 +20,19 @@ describe Relationship do
     end
 
     it "should have a follower attribute" do
-      @relationship.should respond_to(:follower)
+      expect(@relationship).to respond_to(:follower)
     end
 
     it "should have the right follower" do
-      @relationship.follower.should == @follower
+      expect(@relationship.follower).to eq(@follower)
     end
 
     it "should have a followed attribute" do
-      @relationship.should respond_to(:followed)
+      expect(@relationship).to respond_to(:followed)
     end
 
     it "should have the right followed user" do
-      @relationship.followed.should == @followed
+      expect(@relationship.followed).to eq(@followed)
     end
   end
 
@@ -51,12 +40,12 @@ describe Relationship do
 
     it "should require a follower_id" do
       @relationship.follower_id = nil
-      @relationship.should_not be_valid
+      expect(@relationship).to_not be_valid
     end
 
     it "should require a followed_id" do
       @relationship.followed_id = nil
-      @relationship.should_not be_valid
+      expect(@relationship).to_not be_valid
     end
   end
 end

@@ -1,16 +1,19 @@
 source 'http://rubygems.org'
 
-#gem 'rails', '3.2.11'
-gem 'rails', '6.0.3.5'
+gem 'rails', '6.0.3.6'
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
+gem 'iconv'
 gem 'tzinfo-data', '1.2020.3'
 gem 'gravatar_image_tag', '1.2.0'
 gem 'will_paginate', '3.3.0'
 
-gem 'paperclip', '6.1.0'
+# Eventually want to migrate to ActiveStorage from deprecated Paperclip
+#gem 'paperclip', '6.1.0'
+# Temporary branch until paperclip 6.1.1 is released:
+gem 'paperclip', git: 'https://github.com/sd/paperclip', branch: 'remove-mimemagic'
 #gem 'aws-s3'
 gem 'aws-sdk', '3.0.1'
 
@@ -18,6 +21,7 @@ gem 'aws-sdk', '3.0.1'
 # in production environments by default.
 group :assets do
   #gem 'sass-rails', "~> 3.1.0.rc"
+  gem 'coffee-script-source', '1.8.0'
   gem 'coffee-rails', '5.0.0'
   #gem 'coffee-script'
   gem 'uglifier', '4.2.0'
@@ -45,7 +49,7 @@ end
 group :development, :test do
   gem 'sqlite3', '1.4.2'
   gem 'rspec-rails', '~> 4.0.1'
-  # gem 'capybara', '3.33.0'
+  gem 'capybara', '3.33.0'
   gem 'factory_bot_rails', '6.1.0'
   gem 'rails-controller-testing', '1.0.5'
 end
@@ -67,4 +71,3 @@ group :production do
   # heroku cedar stack uses PostgreSQL database
   gem 'pg'
 end
-
