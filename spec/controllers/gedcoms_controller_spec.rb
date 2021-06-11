@@ -1,4 +1,4 @@
-require 'spec_helper'
+require 'rails_helper'
 
 describe GedcomsController do
   render_views
@@ -7,12 +7,12 @@ describe GedcomsController do
 
     it "should deny access to 'create'" do
       post :create
-      response.should redirect_to(signin_path)
+      expect(response).to redirect_to(signin_path)
     end
 
     it "should deny access to 'destroy'" do
-      delete :destroy, :id => 1
-      response.should redirect_to(signin_path)
+      delete :destroy, :params => { :id => 1 }
+      expect(response).to redirect_to(signin_path)
     end
   end
 
@@ -21,8 +21,7 @@ describe GedcomsController do
     describe "success" do
 
       before(:each) do
-        @user = Factory(:user)
-        @user = test_sign_in(@user)
+        @user = test_sign_in(FactoryBot.create(:user))
       end
 
       after(:each) do
@@ -30,11 +29,11 @@ describe GedcomsController do
       end
 
       it "should create a gedcom" do
-        lambda do
+        expect do
           # post :create, @attr
           @user.create_gedcom!(:gedcom =>
             Rails.root.join("spec/fixtures/gedcoms/GARYSANCESTORS.GED").open)
-        end.should change(Gedcom, :count).by(1)
+        end.to change(Gedcom, :count).by(1)
 
       end
 
@@ -46,16 +45,16 @@ describe GedcomsController do
     describe "for an unauthorized user" do
 
       before(:each) do
-        @user = Factory(:user)
-        wrong_user = Factory(:user, :email => Factory.next(:email))
+        @user = FactoryBot.create(:user)
+        wrong_user = FactoryBot.create(:user, :email => FactoryBot.generate(:email))
         test_sign_in(wrong_user)
         @user.create_gedcom!(:gedcom =>
           Rails.root.join("spec/fixtures/gedcoms/GARYSANCESTORS.GED").open)
       end
 
       it "should deny access" do
-        delete :destroy, :id => @user.gedcom
-        response.should redirect_to(root_path)
+        delete :destroy, :params => { :id => @user.gedcom }
+        expect(response).to redirect_to(root_path)
       end
     end
 

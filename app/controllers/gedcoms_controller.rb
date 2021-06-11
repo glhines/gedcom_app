@@ -1,7 +1,7 @@
 class GedcomsController < ApplicationController
 
-  before_filter :authenticate, :only => [:create, :destroy]
-  before_filter :gedcom_owner, :only => :destroy
+  before_action :authenticate, :only => [:create, :destroy]
+  before_action :gedcom_owner, :only => :destroy
 
   def new
     @gedcom = Gedcom.new

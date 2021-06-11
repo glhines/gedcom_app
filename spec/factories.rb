@@ -1,4 +1,3 @@
-# By using the symbol ':user', we get Factory Girl to simulate the User model.
 FactoryBot.define do
   factory :user do
     name                  { "Michael Hartl" }

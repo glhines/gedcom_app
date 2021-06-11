@@ -1,4 +1,4 @@
-require 'spec_helper'
+require 'rails_helper'
 
 describe PagesController do
   render_views
@@ -18,29 +18,28 @@ describe PagesController do
       end
 
       it "should be successful" do
-        response.should be_success
+        expect(response).to have_http_status(:success)
       end
 
       it "should have the right title" do
-        response.should have_selector("title",
-                                      :content => "#{@base_title} | Home")
+        expect(response.body).to have_title(@base_title + " | Home")
       end
     end
 
     describe "when signed in" do
 
       before(:each) do
-        @user = test_sign_in(Factory(:user))
-        other_user = Factory(:user, :email => Factory.next(:email))
+        @user = test_sign_in(FactoryBot.create(:user))
+        other_user = FactoryBot.create(:user, :email => FactoryBot.generate(:email))
         other_user.follow!(@user)
       end
 
       it "should have the right follower/following counts" do
         get :home
-        response.should have_selector("a", :href => following_user_path(@user),
-                                           :content => "0 following")
-        response.should have_selector("a", :href => followers_user_path(@user),
-                                           :content => "1 follower")
+        expect(response.body).to have_link("0 following",
+                                            href: following_user_path(@user))
+        expect(response.body).to have_link("1 follower",
+                                            href: followers_user_path(@user))
       end
     end
   end
@@ -48,39 +47,36 @@ describe PagesController do
   describe "GET 'contact'" do
     it "should be successful" do
       get 'contact'
-      response.should be_success
+      expect(response).to have_http_status(:success)
     end
 
     it "should have the right title" do
       get 'contact'
-      response.should have_selector("title",
-                                    :content => @base_title + " | Contact")
+      expect(response.body).to have_title(@base_title + " | Contact")
     end
   end
 
   describe "GET 'about'" do
     it "should be successful" do
       get 'about'
-      response.should be_success
+      expect(response).to have_http_status(:success)
     end
 
     it "should have the right title" do
       get 'about'
-      response.should have_selector("title",
-                                    :content => @base_title + " | About")
+      expect(response.body).to have_title(@base_title + " | About")
     end
   end
 
   describe "GET 'help'" do
     it "should be successful" do
       get 'help'
-      response.should be_success
+      expect(response).to have_http_status(:success)
     end
 
     it "should have the right title" do
       get 'help'
-      response.should have_selector("title",
-                                    :content => @base_title + " | Help")
+      expect(response.body).to have_title(@base_title + " | Help")
     end
   end
 
