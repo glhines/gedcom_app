@@ -39,7 +39,7 @@ gem 'jquery-rails', '4.4.0'
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
 # Bundle the extra gems:
-gem 'nokogiri', '~> 1.13.2'
+gem 'nokogiri', '~> 1.13.4'
 
 group :development do
   gem 'annotate', '2.4.0'
