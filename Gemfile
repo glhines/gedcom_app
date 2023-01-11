@@ -1,12 +1,12 @@
 source 'http://rubygems.org'
 
-gem 'rails', '~> 6.0.5.1'
+gem 'rails', '~> 6.0.6'
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 gem 'iconv'
-gem 'tzinfo-data', '1.2020.3'
+gem 'tzinfo-data'
 gem 'gravatar_image_tag', '1.2.0'
 gem 'will_paginate', '3.3.0'
 
@@ -39,7 +39,7 @@ gem 'jquery-rails', '4.4.0'
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
 # Bundle the extra gems:
-gem 'nokogiri', '~> 1.13.9'
+gem 'nokogiri', '~> 1.13.10'
 
 group :development do
   gem 'annotate', '2.4.0'
