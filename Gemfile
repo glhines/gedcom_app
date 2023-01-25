@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '~> 6.0.6'
+gem 'rails', '~> 6.1.7'
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
@@ -40,6 +40,7 @@ gem 'jquery-rails', '4.4.0'
 
 # Bundle the extra gems:
 gem 'nokogiri', '~> 1.13.10'
+gem 'net-http'
 
 group :development do
   gem 'annotate', '2.4.0'
