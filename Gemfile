@@ -4,7 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby "3.2.2"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-gem "rails", "~> 7.0.5", ">= 7.0.5.1"
+gem "rails", "~> 7.0.7", ">= 7.0.7.2"
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
@@ -13,7 +13,7 @@ gem "sprockets-rails"
 gem "sqlite3", "~> 1.4", ">= 1.4.2"
 
 # Use the Puma web server [https://github.com/puma/puma]
-gem "puma", "~> 5.0"
+gem "puma", "~> 5.0", ">= 5.6.7"
 
 # Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
 gem "importmap-rails"
@@ -104,8 +104,7 @@ end
 
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
-  gem "selenium-webdriver"
-  gem "webdrivers"
+  gem "selenium-webdriver", "~> 4.11"
   
   gem "webrat", "0.7.1"
   gem "turn", :require => false
