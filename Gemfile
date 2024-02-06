@@ -10,7 +10,7 @@ gem "rails", "~> 7.0.8"
 gem "sprockets-rails"
 
 # Use sqlite3 as the database for Active Record
-gem "sqlite3", "~> 1.4", ">= 1.4.2"
+gem "sqlite3", "~> 1.7", ">= 1.7.2"
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0", ">= 5.6.8"
@@ -117,5 +117,5 @@ end
 
 # Bundle the extra gems:
 # gem 'bj'
-gem "nokogiri", "~> 1.14", ">= 1.14.3"
+gem "nokogiri", "~> 1.16", ">= 1.16.2"
 gem "net-http"
