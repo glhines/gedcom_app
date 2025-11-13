@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2011_08_22_223434) do
+ActiveRecord::Schema[7.1].define(version: 2025_08_06_001021) do
   create_table "gedcoms", force: :cascade do |t|
     t.string "gedcom_file_name"
     t.integer "gedcom_file_size"
